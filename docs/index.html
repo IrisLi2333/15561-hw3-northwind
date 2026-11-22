@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Growing Fast, Growing Well?</title>
+  <meta name="description" content="Northwind Traders' growth quality and strategic priorities — a management briefing built from the Northwind dataset.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/charts.css">
+</head>
+<body>
+  <!-- Fixed ambient background: sky gradient, warm glow, light rays -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__sun"></div>
+    <div class="ambient__sky"></div>
+    <div class="ambient__rays ambient__rays--top"></div>
+    <div class="ambient__rays ambient__rays--bottom"></div>
+  </div>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav">
+    <a class="brand" href="#cover" aria-label="Back to cover">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3AA8FF"/><stop offset="1" stop-color="#0068C9"/></linearGradient></defs>
+        <path d="M6 20 L16 26 L16 14 L6 8 Z" fill="url(#bm)" opacity=".55"/>
+        <path d="M11 15 L21 21 L21 9 L11 3 Z" fill="url(#bm)" opacity=".8"/>
+        <path d="M16 26 L26 20 L26 8 L16 14 Z" fill="url(#bm)"/>
+      </svg>
+      <span>Northwind Insights</span>
+    </a>
+    <nav class="nav__pill glass" aria-label="Sections">
+      <a href="#cover" data-nav="cover" class="is-active"><span class="dot"></span>Cover</a>
+      <a href="#approach" data-nav="approach">Framework</a>
+      <a href="#q1" data-nav="q1">01 Growth</a>
+      <a href="#q2" data-nav="q2">02 Focus</a>
+      <a href="#q3" data-nav="q3">03 Risks</a>
+    </nav>
+    <a class="btn btn--white btn--sm" href="https://github.com/IrisLi2333/15561-hw3-northwind" target="_blank" rel="noopener">GitHub Repo <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <!-- ===================== PAGE 1 / COVER ===================== -->
+    <section id="cover" class="page cover">
+      <div class="cover__grid">
+        <div class="cover__text">
+          <span class="chip glass">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 12 L6 7 L9 10 L14 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            15.561 HW3: AI-Assisted Business Data Analysis
+          </span>
+          <h1 class="display">
+            Growing fast,<br>
+            growing well?
+          </h1>
+          <p class="lede">
+            Northwind Traders' growth quality and strategic priorities: a management
+            briefing built from 830 orders between July 1996 and May 1998.
+          </p>
+          <div class="actions">
+            <a class="btn btn--primary" href="#approach">Read the briefing <span aria-hidden="true">→</span></a>
+            <a class="btn btn--white" href="https://github.com/IrisLi2333/15561-hw3-northwind" target="_blank" rel="noopener">View the code</a>
+          </div>
+        </div>
+
+        <aside class="glance glass" aria-label="Briefing at a glance">
+          <span class="eyebrow">The briefing at a glance</span>
+          <div class="glance__stats">
+            <div><span class="glance__num">830</span><span class="glance__lbl">orders</span></div>
+            <div><span class="glance__num">89</span><span class="glance__lbl">buying customers</span></div>
+            <div><span class="glance__num">21</span><span class="glance__lbl">country markets</span></div>
+            <div><span class="glance__num">77</span><span class="glance__lbl">products in 8 categories</span></div>
+          </div>
+          <ol class="glance__layers">
+            <li><a href="#q1"><span class="glance__idx">01</span><span><strong>Overview</strong><em>Performance &amp; growth quality</em></span><span class="glance__go">→</span></a></li>
+            <li><a href="#q2"><span class="glance__idx">02</span><span><strong>Strategy</strong><em>Where to focus</em></span><span class="glance__go">→</span></a></li>
+            <li><a href="#q3"><span class="glance__idx">03</span><span><strong>Risks</strong><em>Where growth is exposed</em></span><span class="glance__go">→</span></a></li>
+          </ol>
+        </aside>
+      </div>
+
+      <div class="cover__footer">
+        <div class="follow">
+          <span class="follow__label">Sources</span>
+          <div class="follow__icons">
+            <a class="icon-btn glass" href="https://docs.google.com/spreadsheets/d/1mD4Hn4NZdJlXMC4EJcSp27vg-_jbxUYJ95vQvMbSpVM/edit" title="Northwind dataset" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="11" rx="2"/><path d="M2.5 6.5h11M6.5 6.5v7"/></svg>
+            </a>
+            <a class="icon-btn glass" href="https://github.com/IrisLi2333/15561-hw3-northwind" target="_blank" rel="noopener" title="GitHub repository">
+              <svg viewBox="0 0 16 16"><path d="M5.5 5 2.5 8l3 3M10.5 5l3 3-3 3"/></svg>
+            </a>
+            <a class="icon-btn glass" href="#approach" title="Method">
+              <svg viewBox="0 0 16 16"><path d="M4 2.5h6l2.5 2.5v8.5H4z M6 8h4.5M6 10.5h4.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#approach">Start with the framework <span class="scroll-cue__btn glass">↓</span></a>
+      </div>
+    </section>
+
+    <!-- ===================== PAGE 2 / APPROACH ===================== -->
+    <section id="approach" class="page">
+      <div class="page__head">
+        <span class="chip glass"><span class="chip__num">00</span> Analytical framework</span>
+        <h2 class="display display--md">Diagnose,<br>prioritize, protect</h2>
+        <p class="lede">A top-down management review that moves from the health of the whole business to the specific decisions it implies.</p>
+      </div>
+
+      <div class="framework">
+        <div class="framework__top">
+          <article class="card glass rationale">
+            <span class="eyebrow">Why these three questions</span>
+            <p>These three questions follow the hierarchy of decisions Northwind's management faces. The first is the umbrella question: how strong is the business, and what is driving its growth? The second builds on that assessment and asks which markets and product categories deserve the nine-person team's limited sales effort. The third tests those priorities by examining what company-wide growth can conceal, such as a market losing sales or customers who place a first order and never return during the period observed.</p>
+            <p>Together, the questions help management decide how much confidence to place in current growth, where to invest next, and which weaknesses need attention to sustain that growth.</p>
+          </article>
+          <article class="card card--accent">
+            <span class="eyebrow eyebrow--light">Executive summary</span>
+            <ul class="summary">
+              <li class="tbd" data-text="q1.text.bridge.drivers.title"></li>
+              <li class="tbd" data-text="q2.text.markets.title"></li>
+              <li class="tbd" data-text="q3.text.bridge.title"></li>
+              <li class="tbd" data-text="q3.text.rhythm.title"></li>
+            </ul>
+          </article>
+        </div>
+        <ol class="tiers">
+          <li class="tier glass">
+            <span class="tier__num">01</span>
+            <h3>Diagnose</h3>
+            <dl class="tier__meta">
+              <div><dt>Level</dt><dd>The whole business</dd></div>
+              <div><dt>Informs</dt><dd>How much confidence to place in the growth trajectory</dd></div>
+            </dl>
+            <a class="link" href="#q1">Read section →</a>
+          </li>
+          <li class="tier glass">
+            <span class="tier__num">02</span>
+            <h3>Prioritize</h3>
+            <dl class="tier__meta">
+              <div><dt>Level</dt><dd>The portfolio of markets and product categories</dd></div>
+              <div><dt>Informs</dt><dd>Where to deploy a nine-person team</dd></div>
+            </dl>
+            <a class="link" href="#q2">Read section →</a>
+          </li>
+          <li class="tier glass">
+            <span class="tier__num">03</span>
+            <h3>Protect</h3>
+            <dl class="tier__meta">
+              <div><dt>Level</dt><dd>Individual products, markets, and customer accounts</dd></div>
+              <div><dt>Informs</dt><dd>Where to intervene, investigate, or step back</dd></div>
+            </dl>
+            <a class="link" href="#q3">Read section →</a>
+          </li>
+        </ol>
+      </div>
+      <nav class="pager" aria-label="Pages">
+        <a class="pager__btn" href="#cover"><span aria-hidden="true">←</span> Cover</a>
+        <a class="pager__btn pager__btn--next" href="#q1">Next: 01 Growth <span aria-hidden="true">→</span></a>
+      </nav>
+    </section>
+
+    <!-- ===================== PAGE 3 / Q1 ===================== -->
+    <section id="q1" class="page analysis">
+      <div class="analysis__head">
+        <span class="chip glass"><span class="chip__num">01</span> Overview: performance and growth quality</span>
+        <div class="analysis__title">
+          <span class="bignum" aria-hidden="true">01</span>
+          <h2 class="question">How is Northwind performing overall, what is driving its growth, and how broad-based and sustainable is that growth?</h2>
+        </div>
+      </div>
+
+      <div class="kpis">
+        <div class="kpi glass" data-kpi="revenue"><span class="kpi__label">Net revenue, Jul–Apr</span><span class="kpi__value">—</span><span class="kpi__delta tbd">vs prior period</span></div>
+        <div class="kpi glass" data-kpi="orders"><span class="kpi__label">Orders</span><span class="kpi__value">—</span><span class="kpi__delta tbd">vs prior period</span></div>
+        <div class="kpi glass" data-kpi="customers"><span class="kpi__label">Active customers</span><span class="kpi__value">—</span><span class="kpi__delta tbd">vs prior period</span></div>
+        <div class="kpi glass" data-kpi="aov"><span class="kpi__label">Avg order value</span><span class="kpi__value">—</span><span class="kpi__delta tbd">vs prior period</span></div>
+      </div>
+
+      <div class="context">
+        <article class="card glass"><span class="eyebrow">Why it matters</span><p>Management needs to understand both the scale and the quality of growth. Rising sales can reflect a larger customer base, more frequent purchases, larger orders, or unusually large purchases from a few accounts, and each pattern carries different implications for future performance. Concentration is the central test: a customer base weighted toward a few large accounts carries measurably higher risk, because the loss of one relationship removes a large share of revenue (Dhaliwal et al., 2016). Understanding the underlying drivers helps Northwind distinguish a broadly strengthening business from growth that depends heavily on a small number of customers, markets, or products.</p></article>
+        <article class="card glass method"><span class="eyebrow">Method and definitions</span><dl class="method__list" data-method="q1"></dl></article>
+      </div>
+
+      <div class="figures">
+        <figure class="card glass fig fig--wide">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 1.1</span>
+            <h4 class="chart__title" data-text="q1.text.monthly.title"></h4>
+            <p class="chart__about" data-text="q1.text.monthly.about"></p>
+            <p class="chart__sub" data-text="q1.text.monthly.sub"></p>
+            <div class="chartbox" data-chart="q1-monthly"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q1.text.monthly.takeaway"></p></div>
+            <p class="chart__src" data-text="q1.text.monthly.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 1.2</span>
+            <h4 class="chart__title" data-text="q1.text.bridge.drivers.title"></h4>
+            <p class="chart__about" data-text="q1.text.bridge.about"></p>
+            <p class="chart__sub" data-text="q1.text.bridge.drivers.sub"></p>
+            <div class="seg" data-seg="q1-bridge" role="group" aria-label="Break the increase down by">
+              <span class="seg__label">View by</span>
+              <button type="button" data-view="drivers" aria-pressed="true">Drivers</button>
+              <button type="button" data-view="markets" aria-pressed="false">Markets</button>
+              <button type="button" data-view="categories" aria-pressed="false">Categories</button>
+            </div>
+            <div class="chartbox" data-chart="q1-bridge"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q1.text.bridge.drivers.takeaway"></p></div>
+            <p class="chart__src" data-text="q1.text.bridge.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 1.3</span>
+            <h4 class="chart__title" data-text="q1.text.pareto.title"></h4>
+            <p class="chart__about" data-text="q1.text.pareto.about"></p>
+            <p class="chart__sub" data-text="q1.text.pareto.sub"></p>
+            <div class="chartbox" data-chart="q1-pareto"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q1.text.pareto.takeaway"></p></div>
+            <p class="chart__src" data-text="q1.text.pareto.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig fig--wide">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 1.4</span>
+            <h4 class="chart__title" data-text="q1.text.cohorts.title"></h4>
+            <p class="chart__about" data-text="q1.text.cohorts.about"></p>
+            <p class="chart__sub" data-text="q1.text.cohorts.sub"></p>
+            <div class="chartbox" data-chart="q1-cohorts"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q1.text.cohorts.takeaway"></p></div>
+            <p class="chart__src" data-text="q1.text.cohorts.src"></p>
+          </div>
+        </figure>
+      </div>
+
+      <div class="takeaways">
+        <article class="card card--accent"><span class="eyebrow eyebrow--light">Main finding</span><p class="tbd" data-text="q1.text.finding"></p></article>
+        <article class="card glass"><span class="eyebrow">Business implication</span><p class="tbd" data-text="q1.text.implication"></p></article>
+      </div>
+      <nav class="pager" aria-label="Pages">
+        <a class="pager__btn" href="#approach"><span aria-hidden="true">←</span> Framework</a>
+        <a class="pager__btn pager__btn--next" href="#q2">Next: 02 Focus <span aria-hidden="true">→</span></a>
+      </nav>
+    </section>
+
+    <!-- ===================== PAGE 4 / Q2 ===================== -->
+    <section id="q2" class="page analysis">
+      <div class="analysis__head">
+        <span class="chip glass"><span class="chip__num">02</span> Strategy: where to focus</span>
+        <div class="analysis__title">
+          <span class="bignum" aria-hidden="true">02</span>
+          <h2 class="question">Given a lean nine-person team, which markets and product categories should Northwind prioritize to sustain its growth?</h2>
+        </div>
+      </div>
+
+      <div class="context">
+        <article class="card glass"><span class="eyebrow">Why it matters</span><p>A team of nine serving customers in 21 countries has limited capacity to pursue every opportunity. Northwind needs to focus its attention where there is credible evidence of meaningful sales potential and an achievable route to expansion. Prioritization should weigh existing business scale, incremental growth in dollars, and customer reach together with growth rates, since a small starting base can inflate a rate.</p></article>
+        <article class="card glass method"><span class="eyebrow">Method and definitions</span><dl class="method__list" data-method="q2"></dl></article>
+      </div>
+
+      <div class="figures">
+        <figure class="card glass fig fig--wide">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 2.1</span>
+            <h4 class="chart__title" data-text="q2.text.markets.title"></h4>
+            <p class="chart__about" data-text="q2.text.markets.about"></p>
+            <p class="chart__sub" data-text="q2.text.markets.sub"></p>
+            <div class="chartbox" data-chart="q2-markets"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q2.text.markets.takeaway"></p></div>
+            <p class="chart__src" data-text="q2.text.markets.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 2.2</span>
+            <h4 class="chart__title" data-text="q2.text.categories.title"></h4>
+            <p class="chart__about" data-text="q2.text.categories.about"></p>
+            <p class="chart__sub" data-text="q2.text.categories.sub"></p>
+            <div class="chartbox" data-chart="q2-categories"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q2.text.categories.takeaway"></p></div>
+            <p class="chart__src" data-text="q2.text.categories.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 2.3</span>
+            <h4 class="chart__title" data-text="q2.text.team.title"></h4>
+            <p class="chart__about" data-text="q2.text.team.about"></p>
+            <p class="chart__sub" data-text="q2.text.team.sub"></p>
+            <div class="chartbox" data-chart="q2-team"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q2.text.team.takeaway"></p></div>
+            <p class="chart__src" data-text="q2.text.team.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig fig--wide">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 2.4</span>
+            <h4 class="chart__title" data-text="q2.text.grid.title"></h4>
+            <p class="chart__about" data-text="q2.text.grid.about"></p>
+            <p class="chart__sub" data-text="q2.text.grid.sub"></p>
+            <div class="chartbox chartbox--scroll" data-chart="q2-grid"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q2.text.grid.takeaway"></p></div>
+            <p class="chart__src" data-text="q2.text.grid.src"></p>
+          </div>
+        </figure>
+      </div>
+
+      <div class="takeaways">
+        <article class="card card--accent"><span class="eyebrow eyebrow--light">Main finding</span><p class="tbd" data-text="q2.text.finding"></p></article>
+        <article class="card glass"><span class="eyebrow">Business implication</span><p class="tbd" data-text="q2.text.implication"></p></article>
+      </div>
+      <nav class="pager" aria-label="Pages">
+        <a class="pager__btn" href="#q1"><span aria-hidden="true">←</span> 01 Growth</a>
+        <a class="pager__btn pager__btn--next" href="#q3">Next: 03 Risks <span aria-hidden="true">→</span></a>
+      </nav>
+    </section>
+
+    <!-- ===================== PAGE 5 / Q3 ===================== -->
+    <section id="q3" class="page analysis">
+      <div class="analysis__head">
+        <span class="chip glass"><span class="chip__num">03</span> Risks: where growth is exposed</span>
+        <div class="analysis__title">
+          <span class="bignum" aria-hidden="true">03</span>
+          <h2 class="question">Beneath the headline growth, which products and markets are losing ground, and how well is Northwind retaining the customers it has won?</h2>
+        </div>
+      </div>
+
+      <div class="context">
+        <article class="card glass"><span class="eyebrow">Why it matters</span><p>Aggregate growth can conceal deterioration in parts of the business. New customer purchases may offset weakening relationships with existing customers, while strong categories may mask declining products. Retention deserves particular weight: research on customer defection finds that small reductions in defection produce disproportionate gains in profit (Reichheld &amp; Sasser, 1990). Identifying these patterns early helps management decide where to intervene, where to investigate changing demand, and where reduced attention may be appropriate.</p></article>
+        <article class="card glass method"><span class="eyebrow">Method and definitions</span><dl class="method__list" data-method="q3"></dl></article>
+      </div>
+
+      <div class="figures">
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 3.1</span>
+            <h4 class="chart__title" data-text="q3.text.bridge.title"></h4>
+            <p class="chart__about" data-text="q3.text.bridge.about"></p>
+            <p class="chart__sub" data-text="q3.text.bridge.sub"></p>
+            <div class="chartbox" data-chart="q3-bridge"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q3.text.bridge.takeaway"></p></div>
+            <p class="chart__src" data-text="q3.text.bridge.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 3.2</span>
+            <h4 class="chart__title" data-text="q3.text.products.title"></h4>
+            <p class="chart__about" data-text="q3.text.products.about"></p>
+            <p class="chart__sub" data-text="q3.text.products.sub"></p>
+            <div class="chartbox" data-chart="q3-products"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q3.text.products.takeaway"></p></div>
+            <p class="chart__src" data-text="q3.text.products.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig fig--wide">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 3.3</span>
+            <h4 class="chart__title" data-text="q3.text.rhythm.title"></h4>
+            <p class="chart__about" data-text="q3.text.rhythm.about"></p>
+            <p class="chart__sub" data-text="q3.text.rhythm.sub"></p>
+            <div class="chartbox" data-chart="q3-rhythm"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q3.text.rhythm.takeaway"></p></div>
+            <p class="chart__src" data-text="q3.text.rhythm.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 3.4</span>
+            <h4 class="chart__title" data-text="q3.text.markets.title"></h4>
+            <p class="chart__about" data-text="q3.text.markets.about"></p>
+            <p class="chart__sub" data-text="q3.text.markets.sub"></p>
+            <div class="chartbox" data-chart="q3-markets"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q3.text.markets.takeaway"></p></div>
+            <p class="chart__src" data-text="q3.text.markets.src"></p>
+          </div>
+        </figure>
+        <figure class="card glass fig">
+          <div class="fig__body chart">
+            <span class="eyebrow">Figure 3.5</span>
+            <h4 class="chart__title" data-text="q3.text.cohort.title"></h4>
+            <p class="chart__about" data-text="q3.text.cohort.about"></p>
+            <p class="chart__sub" data-text="q3.text.cohort.sub"></p>
+            <div class="chartbox" data-chart="q3-cohort"></div>
+            <div class="chart__takeaway"><span class="eyebrow">Takeaway</span><p data-text="q3.text.cohort.takeaway"></p></div>
+            <p class="chart__src" data-text="q3.text.cohort.src"></p>
+          </div>
+        </figure>
+      </div>
+
+      <div class="takeaways">
+        <article class="card card--accent"><span class="eyebrow eyebrow--light">Main finding</span><p class="tbd" data-text="q3.text.finding"></p></article>
+        <article class="card glass"><span class="eyebrow">Business implication</span><p class="tbd" data-text="q3.text.implication"></p></article>
+      </div>
+      <nav class="pager" aria-label="Pages">
+        <a class="pager__btn" href="#q2"><span aria-hidden="true">←</span> 02 Focus</a>
+      </nav>
+    </section>
+  </main>
+
+  <section class="refs" aria-label="References">
+    <span class="eyebrow">References</span>
+    <ol>
+      <li>Dhaliwal, D., Judd, J. S., Serfling, M., &amp; Shaikh, S. (2016). Customer concentration risk and the cost of equity capital. <em>Journal of Accounting and Economics, 61</em>(1), 23–48.</li>
+      <li>Reichheld, F. F., &amp; Sasser, W. E. (1990). Zero defections: Quality comes to services. <em>Harvard Business Review, 68</em>(5), 105–111.</li>
+    </ol>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="notice glass">
+      <svg class="notice__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 6 3 10l4 4M13 6l4 4-4 4"/></svg>
+      <p>Every number, chart and table on this page can be regenerated from the Northwind dataset with the Python code in the repository.</p>
+      <a class="btn btn--white btn--sm" href="https://github.com/IrisLi2333/15561-hw3-northwind" target="_blank" rel="noopener">Reproduce it</a>
+    </div>
+    <p class="footer__meta"><span class="tbd">[Your name]</span>, MIT 15.561, Fall 2026<br>Analysis in Python (pandas). Charts drawn in SVG from the Python output, built with an AI coding agent.<br>Chart style adapted from <a href="https://github.com/larashero3-dotcom/lieflat-charts">Lieflat Charts</a> (PolyForm Noncommercial 1.0.0)</p>
+  </footer>
+
+  <script src="assets/js/class-tokens.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1545 @@
+{
+ "windows": {
+  "prior": "Jul 1996–Apr 1997",
+  "current": "Jul 1997–Apr 1998"
+ },
+ "retained": {
+  "prior_customers": 80,
+  "retained_customers": 78,
+  "contracting_customers": 25,
+  "share_of_retained_contracting": 0.3205
+ },
+ "rhythm": {
+  "status_counts": {
+   "On rhythm": 77,
+   "Overdue": 9,
+   "Too few orders": 3
+  },
+  "overdue_customers": 9,
+  "revenue_at_risk": 53758.7725,
+  "revenue_at_risk_share": 0.0627,
+  "customers": [
+   {
+    "customer": "Alfreds Futterkiste",
+    "market": "Germany",
+    "orders": 6,
+    "median_gap": 39.0,
+    "days_since_last": 27,
+    "overdue_ratio": 0.6923,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 4273.0,
+    "last_order": "1998-04-09"
+   },
+   {
+    "customer": "Ana Trujillo Emparedados y helados",
+    "market": "Mexico",
+    "orders": 4,
+    "median_gap": 112.0,
+    "days_since_last": 63,
+    "overdue_ratio": 0.5625,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1314.15,
+    "last_order": "1998-03-04"
+   },
+   {
+    "customer": "Antonio Moreno Taquería",
+    "market": "Mexico",
+    "orders": 7,
+    "median_gap": 66.0,
+    "days_since_last": 98,
+    "overdue_ratio": 1.4848,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 5871.715,
+    "last_order": "1998-01-28"
+   },
+   {
+    "customer": "Around the Horn",
+    "market": "UK",
+    "orders": 13,
+    "median_gap": 29.0,
+    "days_since_last": 26,
+    "overdue_ratio": 0.8966,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 11603.95,
+    "last_order": "1998-04-10"
+   },
+   {
+    "customer": "Berglunds snabbköp",
+    "market": "Sweden",
+    "orders": 18,
+    "median_gap": 26.0,
+    "days_since_last": 63,
+    "overdue_ratio": 2.4231,
+    "status": "Overdue",
+    "trailing_12m_revenue": 16203.9275,
+    "last_order": "1998-03-04"
+   },
+   {
+    "customer": "Blauer See Delikatessen",
+    "market": "Germany",
+    "orders": 7,
+    "median_gap": 46.0,
+    "days_since_last": 7,
+    "overdue_ratio": 0.1522,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 2954.0,
+    "last_order": "1998-04-29"
+   },
+   {
+    "customer": "Blondel père et fils",
+    "market": "France",
+    "orders": 11,
+    "median_gap": 42.5,
+    "days_since_last": 114,
+    "overdue_ratio": 2.6824,
+    "status": "Overdue",
+    "trailing_12m_revenue": 4715.16,
+    "last_order": "1998-01-12"
+   },
+   {
+    "customer": "Bólido Comidas preparadas",
+    "market": "Spain",
+    "orders": 3,
+    "median_gap": 265.0,
+    "days_since_last": 43,
+    "overdue_ratio": 0.1623,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3250.85,
+    "last_order": "1998-03-24"
+   },
+   {
+    "customer": "Bon app'",
+    "market": "France",
+    "orders": 17,
+    "median_gap": 24.5,
+    "days_since_last": 0,
+    "overdue_ratio": 0.0,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 12699.7725,
+    "last_order": "1998-05-06"
+   },
+   {
+    "customer": "Bottom-Dollar Markets",
+    "market": "Canada",
+    "orders": 14,
+    "median_gap": 12.0,
+    "days_since_last": 12,
+    "overdue_ratio": 1.0,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 14456.55,
+    "last_order": "1998-04-24"
+   },
+   {
+    "customer": "B's Beverages",
+    "market": "UK",
+    "orders": 10,
+    "median_gap": 32.0,
+    "days_since_last": 22,
+    "overdue_ratio": 0.6875,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3896.3,
+    "last_order": "1998-04-14"
+   },
+   {
+    "customer": "Cactus Comidas para llevar",
+    "market": "Argentina",
+    "orders": 6,
+    "median_gap": 35.0,
+    "days_since_last": 8,
+    "overdue_ratio": 0.2286,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1589.3,
+    "last_order": "1998-04-28"
+   },
+   {
+    "customer": "Centro comercial Moctezuma",
+    "market": "Mexico",
+    "orders": 1,
+    "median_gap": null,
+    "days_since_last": 657,
+    "overdue_ratio": null,
+    "status": "Too few orders",
+    "trailing_12m_revenue": 0.0,
+    "last_order": "1996-07-18"
+   },
+   {
+    "customer": "Chop-suey Chinese",
+    "market": "Switzerland",
+    "orders": 8,
+    "median_gap": 121.0,
+    "days_since_last": 14,
+    "overdue_ratio": 0.1157,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 8360.46,
+    "last_order": "1998-04-22"
+   },
+   {
+    "customer": "Comércio Mineiro",
+    "market": "Brazil",
+    "orders": 5,
+    "median_gap": 110.5,
+    "days_since_last": 14,
+    "overdue_ratio": 0.1267,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 513.75,
+    "last_order": "1998-04-22"
+   },
+   {
+    "customer": "Consolidated Holdings",
+    "market": "UK",
+    "orders": 3,
+    "median_gap": 176.5,
+    "days_since_last": 103,
+    "overdue_ratio": 0.5836,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 931.5,
+    "last_order": "1998-01-23"
+   },
+   {
+    "customer": "Drachenblut Delikatessen",
+    "market": "Germany",
+    "orders": 6,
+    "median_gap": 27.0,
+    "days_since_last": 2,
+    "overdue_ratio": 0.0741,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3229.61,
+    "last_order": "1998-05-04"
+   },
+   {
+    "customer": "Du monde entier",
+    "market": "France",
+    "orders": 4,
+    "median_gap": 143.0,
+    "days_since_last": 79,
+    "overdue_ratio": 0.5524,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1347.1,
+    "last_order": "1998-02-16"
+   },
+   {
+    "customer": "Eastern Connection",
+    "market": "UK",
+    "orders": 8,
+    "median_gap": 36.0,
+    "days_since_last": 8,
+    "overdue_ratio": 0.2222,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 10748.035,
+    "last_order": "1998-04-28"
+   },
+   {
+    "customer": "Ernst Handel",
+    "market": "Austria",
+    "orders": 30,
+    "median_gap": 14.0,
+    "days_since_last": 1,
+    "overdue_ratio": 0.0714,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 70423.7485,
+    "last_order": "1998-05-05"
+   },
+   {
+    "customer": "Familia Arquibaldo",
+    "market": "Brazil",
+    "orders": 7,
+    "median_gap": 63.5,
+    "days_since_last": 187,
+    "overdue_ratio": 2.9449,
+    "status": "Overdue",
+    "trailing_12m_revenue": 2377.0,
+    "last_order": "1997-10-31"
+   },
+   {
+    "customer": "Folies gourmandes",
+    "market": "France",
+    "orders": 5,
+    "median_gap": 90.5,
+    "days_since_last": 135,
+    "overdue_ratio": 1.4917,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 9288.5,
+    "last_order": "1997-12-22"
+   },
+   {
+    "customer": "Folk och fä HB",
+    "market": "Sweden",
+    "orders": 19,
+    "median_gap": 25.0,
+    "days_since_last": 9,
+    "overdue_ratio": 0.36,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 26461.5175,
+    "last_order": "1998-04-27"
+   },
+   {
+    "customer": "Frankenversand",
+    "market": "Germany",
+    "orders": 15,
+    "median_gap": 36.0,
+    "days_since_last": 27,
+    "overdue_ratio": 0.75,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 15396.5195,
+    "last_order": "1998-04-09"
+   },
+   {
+    "customer": "France restauration",
+    "market": "France",
+    "orders": 3,
+    "median_gap": 94.0,
+    "days_since_last": 43,
+    "overdue_ratio": 0.4574,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3172.16,
+    "last_order": "1998-03-24"
+   },
+   {
+    "customer": "Franchi S.p.A.",
+    "market": "Italy",
+    "orders": 6,
+    "median_gap": 36.0,
+    "days_since_last": 6,
+    "overdue_ratio": 0.1667,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1495.9,
+    "last_order": "1998-04-30"
+   },
+   {
+    "customer": "Furia Bacalhau e Frutos do Mar",
+    "market": "Portugal",
+    "orders": 8,
+    "median_gap": 54.0,
+    "days_since_last": 48,
+    "overdue_ratio": 0.8889,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3254.3375,
+    "last_order": "1998-03-19"
+   },
+   {
+    "customer": "Galería del gastrónomo",
+    "market": "Spain",
+    "orders": 5,
+    "median_gap": 98.5,
+    "days_since_last": 62,
+    "overdue_ratio": 0.6294,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 362.5,
+    "last_order": "1998-03-05"
+   },
+   {
+    "customer": "Godos Cocina Típica",
+    "market": "Spain",
+    "orders": 10,
+    "median_gap": 15.0,
+    "days_since_last": 15,
+    "overdue_ratio": 1.0,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 10328.56,
+    "last_order": "1998-04-21"
+   },
+   {
+    "customer": "Gourmet Lanchonetes",
+    "market": "Brazil",
+    "orders": 9,
+    "median_gap": 32.5,
+    "days_since_last": 12,
+    "overdue_ratio": 0.3692,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 7394.135,
+    "last_order": "1998-04-24"
+   },
+   {
+    "customer": "Great Lakes Food Market",
+    "market": "USA",
+    "orders": 11,
+    "median_gap": 28.0,
+    "days_since_last": 6,
+    "overdue_ratio": 0.2143,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 18115.25,
+    "last_order": "1998-04-30"
+   },
+   {
+    "customer": "GROSELLA-Restaurante",
+    "market": "Venezuela",
+    "orders": 2,
+    "median_gap": 506.0,
+    "days_since_last": 139,
+    "overdue_ratio": 0.2747,
+    "status": "Too few orders",
+    "trailing_12m_revenue": 387.5,
+    "last_order": "1997-12-18"
+   },
+   {
+    "customer": "Hanari Carnes",
+    "market": "Brazil",
+    "orders": 14,
+    "median_gap": 18.0,
+    "days_since_last": 9,
+    "overdue_ratio": 0.5,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 29843.97,
+    "last_order": "1998-04-27"
+   },
+   {
+    "customer": "HILARIÓN-Abastos",
+    "market": "Venezuela",
+    "orders": 18,
+    "median_gap": 24.0,
+    "days_since_last": 8,
+    "overdue_ratio": 0.3333,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 14335.264,
+    "last_order": "1998-04-28"
+   },
+   {
+    "customer": "Hungry Coyote Import Store",
+    "market": "USA",
+    "orders": 5,
+    "median_gap": 37.5,
+    "days_since_last": 240,
+    "overdue_ratio": 6.4,
+    "status": "Overdue",
+    "trailing_12m_revenue": 2180.8,
+    "last_order": "1997-09-08"
+   },
+   {
+    "customer": "Hungry Owl All-Night Grocers",
+    "market": "Ireland",
+    "orders": 19,
+    "median_gap": 26.0,
+    "days_since_last": 6,
+    "overdue_ratio": 0.2308,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 34985.6,
+    "last_order": "1998-04-30"
+   },
+   {
+    "customer": "Island Trading",
+    "market": "UK",
+    "orders": 10,
+    "median_gap": 44.0,
+    "days_since_last": 61,
+    "overdue_ratio": 1.3864,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 5014.7,
+    "last_order": "1998-03-06"
+   },
+   {
+    "customer": "Königlich Essen",
+    "market": "Germany",
+    "orders": 14,
+    "median_gap": 35.0,
+    "days_since_last": 20,
+    "overdue_ratio": 0.5714,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 25971.984,
+    "last_order": "1998-04-16"
+   },
+   {
+    "customer": "La corne d'abondance",
+    "market": "France",
+    "orders": 4,
+    "median_gap": 19.0,
+    "days_since_last": 43,
+    "overdue_ratio": 2.2632,
+    "status": "Overdue",
+    "trailing_12m_revenue": 1992.05,
+    "last_order": "1998-03-24"
+   },
+   {
+    "customer": "La maison d'Asie",
+    "market": "France",
+    "orders": 14,
+    "median_gap": 28.0,
+    "days_since_last": 9,
+    "overdue_ratio": 0.3214,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 4237.72,
+    "last_order": "1998-04-27"
+   },
+   {
+    "customer": "Laughing Bacchus Wine Cellars",
+    "market": "Canada",
+    "orders": 3,
+    "median_gap": 136.5,
+    "days_since_last": 125,
+    "overdue_ratio": 0.9158,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 244.5,
+    "last_order": "1998-01-01"
+   },
+   {
+    "customer": "Lazy K Kountry Store",
+    "market": "USA",
+    "orders": 2,
+    "median_gap": 62.0,
+    "days_since_last": 349,
+    "overdue_ratio": 5.629,
+    "status": "Too few orders",
+    "trailing_12m_revenue": 210.0,
+    "last_order": "1997-05-22"
+   },
+   {
+    "customer": "Lehmanns Marktstand",
+    "market": "Germany",
+    "orders": 15,
+    "median_gap": 23.0,
+    "days_since_last": 1,
+    "overdue_ratio": 0.0435,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 12457.195,
+    "last_order": "1998-05-05"
+   },
+   {
+    "customer": "Let's Stop N Shop",
+    "market": "USA",
+    "orders": 4,
+    "median_gap": 94.0,
+    "days_since_last": 83,
+    "overdue_ratio": 0.883,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3076.4725,
+    "last_order": "1998-02-12"
+   },
+   {
+    "customer": "LILA-Supermercado",
+    "market": "Venezuela",
+    "orders": 14,
+    "median_gap": 39.0,
+    "days_since_last": 1,
+    "overdue_ratio": 0.0256,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 7731.82,
+    "last_order": "1998-05-05"
+   },
+   {
+    "customer": "LINO-Delicateses",
+    "market": "Venezuela",
+    "orders": 12,
+    "median_gap": 27.0,
+    "days_since_last": 15,
+    "overdue_ratio": 0.5556,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 14492.565,
+    "last_order": "1998-04-21"
+   },
+   {
+    "customer": "Lonesome Pine Restaurant",
+    "market": "USA",
+    "orders": 8,
+    "median_gap": 60.0,
+    "days_since_last": 23,
+    "overdue_ratio": 0.3833,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3546.6,
+    "last_order": "1998-04-13"
+   },
+   {
+    "customer": "Magazzini Alimentari Riuniti",
+    "market": "Italy",
+    "orders": 10,
+    "median_gap": 62.0,
+    "days_since_last": 51,
+    "overdue_ratio": 0.8226,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 4449.925,
+    "last_order": "1998-03-16"
+   },
+   {
+    "customer": "Maison Dewey",
+    "market": "Belgium",
+    "orders": 7,
+    "median_gap": 56.5,
+    "days_since_last": 29,
+    "overdue_ratio": 0.5133,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 9736.075,
+    "last_order": "1998-04-07"
+   },
+   {
+    "customer": "Mère Paillarde",
+    "market": "Canada",
+    "orders": 13,
+    "median_gap": 17.5,
+    "days_since_last": 188,
+    "overdue_ratio": 10.7429,
+    "status": "Overdue",
+    "trailing_12m_revenue": 12911.85,
+    "last_order": "1997-10-30"
+   },
+   {
+    "customer": "Morgenstern Gesundkost",
+    "market": "Germany",
+    "orders": 5,
+    "median_gap": 98.5,
+    "days_since_last": 55,
+    "overdue_ratio": 0.5584,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3841.4,
+    "last_order": "1998-03-12"
+   },
+   {
+    "customer": "North/South",
+    "market": "UK",
+    "orders": 3,
+    "median_gap": 185.0,
+    "days_since_last": 7,
+    "overdue_ratio": 0.0378,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 297.0,
+    "last_order": "1998-04-29"
+   },
+   {
+    "customer": "Océano Atlántico Ltda.",
+    "market": "Argentina",
+    "orders": 5,
+    "median_gap": 72.5,
+    "days_since_last": 37,
+    "overdue_ratio": 0.5103,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3141.0,
+    "last_order": "1998-03-30"
+   },
+   {
+    "customer": "Old World Delicatessen",
+    "market": "USA",
+    "orders": 10,
+    "median_gap": 56.0,
+    "days_since_last": 16,
+    "overdue_ratio": 0.2857,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 7335.6625,
+    "last_order": "1998-04-20"
+   },
+   {
+    "customer": "Ottilies Käseladen",
+    "market": "Germany",
+    "orders": 9,
+    "median_gap": 57.0,
+    "days_since_last": 22,
+    "overdue_ratio": 0.386,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 9557.55,
+    "last_order": "1998-04-14"
+   },
+   {
+    "customer": "Pericles Comidas clásicas",
+    "market": "Mexico",
+    "orders": 6,
+    "median_gap": 41.0,
+    "days_since_last": 1,
+    "overdue_ratio": 0.0244,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1496.0,
+    "last_order": "1998-05-05"
+   },
+   {
+    "customer": "Piccolo und mehr",
+    "market": "Austria",
+    "orders": 10,
+    "median_gap": 60.0,
+    "days_since_last": 9,
+    "overdue_ratio": 0.15,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 12005.38,
+    "last_order": "1998-04-27"
+   },
+   {
+    "customer": "Princesa Isabel Vinhos",
+    "market": "Portugal",
+    "orders": 6,
+    "median_gap": 65.0,
+    "days_since_last": 28,
+    "overdue_ratio": 0.4308,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 4044.9,
+    "last_order": "1998-04-08"
+   },
+   {
+    "customer": "Que Delícia",
+    "market": "Brazil",
+    "orders": 9,
+    "median_gap": 59.5,
+    "days_since_last": 36,
+    "overdue_ratio": 0.605,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3661.74,
+    "last_order": "1998-03-31"
+   },
+   {
+    "customer": "Queen Cozinha",
+    "market": "Brazil",
+    "orders": 13,
+    "median_gap": 36.5,
+    "days_since_last": 2,
+    "overdue_ratio": 0.0548,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 13786.1175,
+    "last_order": "1998-05-04"
+   },
+   {
+    "customer": "QUICK-Stop",
+    "market": "Germany",
+    "orders": 28,
+    "median_gap": 18.0,
+    "days_since_last": 22,
+    "overdue_ratio": 1.2222,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 81238.465,
+    "last_order": "1998-04-14"
+   },
+   {
+    "customer": "Rancho grande",
+    "market": "Argentina",
+    "orders": 5,
+    "median_gap": 63.0,
+    "days_since_last": 23,
+    "overdue_ratio": 0.3651,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 2400.7,
+    "last_order": "1998-04-13"
+   },
+   {
+    "customer": "Rattlesnake Canyon Grocery",
+    "market": "USA",
+    "orders": 18,
+    "median_gap": 28.0,
+    "days_since_last": 0,
+    "overdue_ratio": 0.0,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 26257.8205,
+    "last_order": "1998-05-06"
+   },
+   {
+    "customer": "Reggiani Caseifici",
+    "market": "Italy",
+    "orders": 12,
+    "median_gap": 55.0,
+    "days_since_last": 6,
+    "overdue_ratio": 0.1091,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 6258.7,
+    "last_order": "1998-04-30"
+   },
+   {
+    "customer": "Ricardo Adocicados",
+    "market": "Brazil",
+    "orders": 11,
+    "median_gap": 45.5,
+    "days_since_last": 7,
+    "overdue_ratio": 0.1538,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 8895.9,
+    "last_order": "1998-04-29"
+   },
+   {
+    "customer": "Richter Supermarkt",
+    "market": "Switzerland",
+    "orders": 10,
+    "median_gap": 73.0,
+    "days_since_last": 0,
+    "overdue_ratio": 0.0,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 14755.679,
+    "last_order": "1998-05-06"
+   },
+   {
+    "customer": "Romero y tomillo",
+    "market": "Spain",
+    "orders": 5,
+    "median_gap": 35.0,
+    "days_since_last": 27,
+    "overdue_ratio": 0.7714,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 726.89,
+    "last_order": "1998-04-09"
+   },
+   {
+    "customer": "Santé Gourmet",
+    "market": "Norway",
+    "orders": 6,
+    "median_gap": 113.0,
+    "days_since_last": 26,
+    "overdue_ratio": 0.2301,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 4476.75,
+    "last_order": "1998-04-10"
+   },
+   {
+    "customer": "Save-a-lot Markets",
+    "market": "USA",
+    "orders": 31,
+    "median_gap": 14.0,
+    "days_since_last": 5,
+    "overdue_ratio": 0.3571,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 82373.51,
+    "last_order": "1998-05-01"
+   },
+   {
+    "customer": "Seven Seas Imports",
+    "market": "UK",
+    "orders": 9,
+    "median_gap": 29.0,
+    "days_since_last": 91,
+    "overdue_ratio": 3.1379,
+    "status": "Overdue",
+    "trailing_12m_revenue": 7170.135,
+    "last_order": "1998-02-04"
+   },
+   {
+    "customer": "Simons bistro",
+    "market": "Denmark",
+    "orders": 7,
+    "median_gap": 92.5,
+    "days_since_last": 0,
+    "overdue_ratio": 0.0,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 5276.0975,
+    "last_order": "1998-05-06"
+   },
+   {
+    "customer": "Spécialités du monde",
+    "market": "France",
+    "orders": 4,
+    "median_gap": 33.0,
+    "days_since_last": 14,
+    "overdue_ratio": 0.4242,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 2423.35,
+    "last_order": "1998-04-22"
+   },
+   {
+    "customer": "Split Rail Beer & Ale",
+    "market": "USA",
+    "orders": 9,
+    "median_gap": 43.5,
+    "days_since_last": 42,
+    "overdue_ratio": 0.9655,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3107.0,
+    "last_order": "1998-03-25"
+   },
+   {
+    "customer": "Suprêmes délices",
+    "market": "Belgium",
+    "orders": 12,
+    "median_gap": 22.0,
+    "days_since_last": 15,
+    "overdue_ratio": 0.6818,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 11672.6,
+    "last_order": "1998-04-21"
+   },
+   {
+    "customer": "The Big Cheese",
+    "market": "USA",
+    "orders": 4,
+    "median_gap": 92.0,
+    "days_since_last": 35,
+    "overdue_ratio": 0.3804,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3025.0,
+    "last_order": "1998-04-01"
+   },
+   {
+    "customer": "The Cracker Box",
+    "market": "USA",
+    "orders": 3,
+    "median_gap": 121.0,
+    "days_since_last": 30,
+    "overdue_ratio": 0.2479,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1947.24,
+    "last_order": "1998-04-06"
+   },
+   {
+    "customer": "Toms Spezialitäten",
+    "market": "Germany",
+    "orders": 5,
+    "median_gap": 79.5,
+    "days_since_last": 44,
+    "overdue_ratio": 0.5535,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 2214.5,
+    "last_order": "1998-03-23"
+   },
+   {
+    "customer": "Tortuga Restaurante",
+    "market": "Mexico",
+    "orders": 10,
+    "median_gap": 59.0,
+    "days_since_last": 2,
+    "overdue_ratio": 0.0339,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3247.8,
+    "last_order": "1998-05-04"
+   },
+   {
+    "customer": "Tradição Hipermercados",
+    "market": "Brazil",
+    "orders": 7,
+    "median_gap": 81.5,
+    "days_since_last": 107,
+    "overdue_ratio": 1.3129,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 5364.664,
+    "last_order": "1998-01-19"
+   },
+   {
+    "customer": "Trail's Head Gourmet Provisioners",
+    "market": "USA",
+    "orders": 3,
+    "median_gap": 101.5,
+    "days_since_last": 118,
+    "overdue_ratio": 1.1626,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 1571.2,
+    "last_order": "1998-01-08"
+   },
+   {
+    "customer": "Vaffeljernet",
+    "market": "Denmark",
+    "orders": 11,
+    "median_gap": 40.0,
+    "days_since_last": 34,
+    "overdue_ratio": 0.85,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 10726.125,
+    "last_order": "1998-04-02"
+   },
+   {
+    "customer": "Victuailles en stock",
+    "market": "France",
+    "orders": 10,
+    "median_gap": 19.0,
+    "days_since_last": 103,
+    "overdue_ratio": 5.4211,
+    "status": "Overdue",
+    "trailing_12m_revenue": 5828.05,
+    "last_order": "1998-01-23"
+   },
+   {
+    "customer": "Vins et alcools Chevalier",
+    "market": "France",
+    "orders": 4,
+    "median_gap": 27.0,
+    "days_since_last": 175,
+    "overdue_ratio": 6.4815,
+    "status": "Overdue",
+    "trailing_12m_revenue": 379.8,
+    "last_order": "1997-11-12"
+   },
+   {
+    "customer": "Die Wandernde Kuh",
+    "market": "Germany",
+    "orders": 10,
+    "median_gap": 14.0,
+    "days_since_last": 13,
+    "overdue_ratio": 0.9286,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3806.625,
+    "last_order": "1998-04-23"
+   },
+   {
+    "customer": "Wartian Herkku",
+    "market": "Finland",
+    "orders": 15,
+    "median_gap": 28.5,
+    "days_since_last": 21,
+    "overdue_ratio": 0.7368,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 7249.7425,
+    "last_order": "1998-04-15"
+   },
+   {
+    "customer": "Wellington Importadora",
+    "market": "Brazil",
+    "orders": 9,
+    "median_gap": 52.5,
+    "days_since_last": 58,
+    "overdue_ratio": 1.1048,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3842.56,
+    "last_order": "1998-03-09"
+   },
+   {
+    "customer": "White Clover Markets",
+    "market": "USA",
+    "orders": 14,
+    "median_gap": 25.0,
+    "days_since_last": 5,
+    "overdue_ratio": 0.2,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 21411.43,
+    "last_order": "1998-05-01"
+   },
+   {
+    "customer": "Wilman Kala",
+    "market": "Finland",
+    "orders": 8,
+    "median_gap": 40.0,
+    "days_since_last": 29,
+    "overdue_ratio": 0.725,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3161.35,
+    "last_order": "1998-04-07"
+   },
+   {
+    "customer": "Wolski  Zajazd",
+    "market": "Poland",
+    "orders": 7,
+    "median_gap": 40.0,
+    "days_since_last": 13,
+    "overdue_ratio": 0.325,
+    "status": "On rhythm",
+    "trailing_12m_revenue": 3072.95,
+    "last_order": "1998-04-23"
+   }
+  ],
+  "overdue": [
+   {
+    "customer": "Berglunds snabbköp",
+    "market": "Sweden",
+    "orders": 18,
+    "median_gap": 26.0,
+    "days_since_last": 63,
+    "overdue_ratio": 2.4231,
+    "trailing_12m_revenue": 16203.9275,
+    "last_order": "1998-03-04"
+   },
+   {
+    "customer": "Mère Paillarde",
+    "market": "Canada",
+    "orders": 13,
+    "median_gap": 17.5,
+    "days_since_last": 188,
+    "overdue_ratio": 10.7429,
+    "trailing_12m_revenue": 12911.85,
+    "last_order": "1997-10-30"
+   },
+   {
+    "customer": "Seven Seas Imports",
+    "market": "UK",
+    "orders": 9,
+    "median_gap": 29.0,
+    "days_since_last": 91,
+    "overdue_ratio": 3.1379,
+    "trailing_12m_revenue": 7170.135,
+    "last_order": "1998-02-04"
+   },
+   {
+    "customer": "Victuailles en stock",
+    "market": "France",
+    "orders": 10,
+    "median_gap": 19.0,
+    "days_since_last": 103,
+    "overdue_ratio": 5.4211,
+    "trailing_12m_revenue": 5828.05,
+    "last_order": "1998-01-23"
+   },
+   {
+    "customer": "Blondel père et fils",
+    "market": "France",
+    "orders": 11,
+    "median_gap": 42.5,
+    "days_since_last": 114,
+    "overdue_ratio": 2.6824,
+    "trailing_12m_revenue": 4715.16,
+    "last_order": "1998-01-12"
+   },
+   {
+    "customer": "Familia Arquibaldo",
+    "market": "Brazil",
+    "orders": 7,
+    "median_gap": 63.5,
+    "days_since_last": 187,
+    "overdue_ratio": 2.9449,
+    "trailing_12m_revenue": 2377.0,
+    "last_order": "1997-10-31"
+   },
+   {
+    "customer": "Hungry Coyote Import Store",
+    "market": "USA",
+    "orders": 5,
+    "median_gap": 37.5,
+    "days_since_last": 240,
+    "overdue_ratio": 6.4,
+    "trailing_12m_revenue": 2180.8,
+    "last_order": "1997-09-08"
+   },
+   {
+    "customer": "La corne d'abondance",
+    "market": "France",
+    "orders": 4,
+    "median_gap": 19.0,
+    "days_since_last": 43,
+    "overdue_ratio": 2.2632,
+    "trailing_12m_revenue": 1992.05,
+    "last_order": "1998-03-24"
+   },
+   {
+    "customer": "Vins et alcools Chevalier",
+    "market": "France",
+    "orders": 4,
+    "median_gap": 27.0,
+    "days_since_last": 175,
+    "overdue_ratio": 6.4815,
+    "trailing_12m_revenue": 379.8,
+    "last_order": "1997-11-12"
+   }
+  ]
+ },
+ "cohort_retention": {
+  "typical_retention": 0.65,
+  "min_cohort_size": 8,
+  "shown": [
+   "1996Q3",
+   "1996Q4",
+   "1997Q1",
+   "1997Q2"
+  ],
+  "partial_offsets": {
+   "1996Q3": 7,
+   "1996Q4": 6,
+   "1997Q1": 5,
+   "1997Q2": 4,
+   "1997Q3": 3,
+   "1997Q4": 2,
+   "1998Q1": 1
+  },
+  "cohorts": [
+   {
+    "cohort": "1996Q3",
+    "size": 42,
+    "retention": [
+     1.0,
+     0.5,
+     0.5952,
+     0.6429,
+     0.6905,
+     0.7143,
+     0.8571,
+     0.6429
+    ]
+   },
+   {
+    "cohort": "1996Q4",
+    "size": 24,
+    "retention": [
+     1.0,
+     0.7917,
+     0.7083,
+     0.625,
+     0.7083,
+     0.7917,
+     0.6667,
+     null
+    ]
+   },
+   {
+    "cohort": "1997Q1",
+    "size": 10,
+    "retention": [
+     1.0,
+     0.4,
+     0.5,
+     0.6,
+     0.7,
+     0.5,
+     null,
+     null
+    ]
+   },
+   {
+    "cohort": "1997Q2",
+    "size": 8,
+    "retention": [
+     1.0,
+     0.5,
+     0.5,
+     0.875,
+     0.625,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "cohort": "1997Q3",
+    "size": 3,
+    "retention": [
+     1.0,
+     0.6667,
+     0.6667,
+     0.6667,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "cohort": "1997Q4",
+    "size": 1,
+    "retention": [
+     1.0,
+     1.0,
+     1.0,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "cohort": "1998Q1",
+    "size": 1,
+    "retention": [
+     1.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   }
+  ]
+ },
+ "product_summary": {
+  "products": 77,
+  "declining": 6,
+  "declining_in_growing_categories": 6,
+  "revenue_lost_in_declining": -6327.605
+ },
+ "product_movers": [
+  {
+   "product": "Thüringer Rostbratwurst",
+   "category": "Meat/Poultry",
+   "prior": 22088.34,
+   "current": 57042.432,
+   "change": 34954.092,
+   "growth": 1.5825
+  },
+  {
+   "product": "Côte de Blaye",
+   "category": "Beverages",
+   "prior": 53954.26,
+   "current": 78588.875,
+   "change": 24634.615,
+   "growth": 0.4566
+  },
+  {
+   "product": "Raclette Courdavault",
+   "category": "Dairy Products",
+   "prior": 22332.2,
+   "current": 45551.0,
+   "change": 23218.8,
+   "growth": 1.0397
+  },
+  {
+   "product": "Manjimup Dried Apples",
+   "category": "Produce",
+   "prior": 8109.0,
+   "current": 26513.25,
+   "change": 18404.25,
+   "growth": 2.2696
+  },
+  {
+   "product": "Uncle Bob's Organic Dried Pears",
+   "category": "Produce",
+   "prior": 2911.8,
+   "current": 18376.5,
+   "change": 15464.7,
+   "growth": 5.311
+  },
+  {
+   "product": "Tarte au sucre",
+   "category": "Confections",
+   "prior": 14085.65,
+   "current": 28749.295,
+   "change": 14663.645,
+   "growth": 1.041
+  },
+  {
+   "product": "Camembert Pierrot",
+   "category": "Dairy Products",
+   "prior": 15304.76,
+   "current": 29870.7,
+   "change": 14565.94,
+   "growth": 0.9517
+  },
+  {
+   "product": "Ikura",
+   "category": "Seafood",
+   "prior": 3615.84,
+   "current": 17003.5,
+   "change": 13387.66,
+   "growth": 3.7025
+  },
+  {
+   "product": "Gula Malacca",
+   "category": "Condiments",
+   "prior": 4409.65,
+   "current": 4125.345,
+   "change": -284.305,
+   "growth": -0.0645
+  },
+  {
+   "product": "Chocolade",
+   "category": "Confections",
+   "prior": 907.1625,
+   "current": 461.55,
+   "change": -445.6125,
+   "growth": -0.4912
+  },
+  {
+   "product": "Longlife Tofu",
+   "category": "Produce",
+   "prior": 1520.0,
+   "current": 912.5,
+   "change": -607.5,
+   "growth": -0.3997
+  },
+  {
+   "product": "Louisiana Hot Spiced Okra",
+   "category": "Condiments",
+   "prior": 2040.0,
+   "current": 918.0,
+   "change": -1122.0,
+   "growth": -0.55
+  },
+  {
+   "product": "Schoggi Schokolade",
+   "category": "Confections",
+   "prior": 8295.375,
+   "current": 6804.5,
+   "change": -1490.875,
+   "growth": -0.1797
+  },
+  {
+   "product": "Tofu",
+   "category": "Produce",
+   "prior": 4445.4,
+   "current": 2068.0875,
+   "change": -2377.3125,
+   "growth": -0.5348
+  }
+ ],
+ "declining_markets": [
+  {
+   "market": "Mexico",
+   "prior": 11652.4125,
+   "current": 6408.365,
+   "change": -5244.0475,
+   "growth": -0.45,
+   "customers_prior": 5,
+   "customers": 4,
+   "customer_effect": -2330.4825,
+   "spend_effect": -2913.565
+  },
+  {
+   "market": "Denmark",
+   "prior": 16658.8,
+   "current": 14934.9375,
+   "change": -1723.8625,
+   "growth": -0.1035,
+   "customers_prior": 2,
+   "customers": 2,
+   "customer_effect": 0.0,
+   "spend_effect": -1723.8625
+  },
+  {
+   "market": "Finland",
+   "prior": 7687.56,
+   "current": 6627.2925,
+   "change": -1060.2675,
+   "growth": -0.1379,
+   "customers_prior": 2,
+   "customers": 2,
+   "customer_effect": 0.0,
+   "spend_effect": -1060.2675
+  }
+ ],
+ "declining_market_customers": {
+  "Mexico": [
+   {
+    "customer": "Tortuga Restaurante",
+    "prior": 7564.35,
+    "current": 2049.35,
+    "change": -5515.0,
+    "segment": "Contraction"
+   },
+   {
+    "customer": "Pericles Comidas clásicas",
+    "prior": 2746.2,
+    "current": 1196.0,
+    "change": -1550.2,
+    "segment": "Contraction"
+   },
+   {
+    "customer": "Centro comercial Moctezuma",
+    "prior": 100.8,
+    "current": 0.0,
+    "change": -100.8,
+    "segment": "Lost"
+   },
+   {
+    "customer": "Antonio Moreno Taquería",
+    "prior": 1152.2625,
+    "current": 1848.865,
+    "change": 696.6025,
+    "segment": "Expansion"
+   },
+   {
+    "customer": "Ana Trujillo Emparedados y helados",
+    "prior": 88.8,
+    "current": 1314.15,
+    "change": 1225.35,
+    "segment": "Expansion"
+   }
+  ],
+  "Denmark": [
+   {
+    "customer": "Simons bistro",
+    "prior": 11541.0,
+    "current": 4208.8125,
+    "change": -7332.1875,
+    "segment": "Contraction"
+   },
+   {
+    "customer": "Vaffeljernet",
+    "prior": 5117.8,
+    "current": 10726.125,
+    "change": 5608.325,
+    "segment": "Expansion"
+   }
+  ],
+  "Finland": [
+   {
+    "customer": "Wartian Herkku",
+    "prior": 7247.56,
+    "current": 3465.9425,
+    "change": -3781.6175,
+    "segment": "Contraction"
+   },
+   {
+    "customer": "Wilman Kala",
+    "prior": 440.0,
+    "current": 3161.35,
+    "change": 2721.35,
+    "segment": "Expansion"
+   }
+  ]
+ },
+ "waterfall": [
+  {
+   "label": "Jul 1996–Apr 1997",
+   "value": 399405.8475,
+   "kind": "total"
+  },
+  {
+   "label": "New customers (9)",
+   "value": 43709.7475,
+   "kind": "up"
+  },
+  {
+   "label": "Expansion (53)",
+   "value": 376279.9065,
+   "kind": "up"
+  },
+  {
+   "label": "Contraction (25)",
+   "value": -61238.2325,
+   "kind": "down"
+  },
+  {
+   "label": "Lost customers (2)",
+   "value": -247.8,
+   "kind": "down"
+  },
+  {
+   "label": "Jul 1997–Apr 1998",
+   "value": 757909.469,
+   "kind": "total"
+  }
+ ],
+ "text": {
+  "bridge": {
+   "title": "Existing customers added $376.3K; 25 contracting accounts gave back $61.2K",
+   "sub": "Change in net revenue by customer group, in US$ thousands, Jul 1996–Apr 1997 vs Jul 1997–Apr 1998\nDark blue: total revenue in each period\nBlue: increase (new and expanding customers)\nOrange: decrease (contracting and lost customers)\nNumber in brackets: customers in the group",
+   "src": "Waterfall chart. Data: Orders, Order Details. n = 89 customers",
+   "about": "The revenue change split by customer group, as a waterfall.",
+   "takeaway": "Existing customers buying more (53) added $376.3K, and 9 new customers added $43.7K. Contraction among 25 customers cost $61.2K, about 247× the $248 lost when 2 customers left. The main retention risk is customers who stay and spend less."
+  },
+  "products": {
+   "title": "6 of 77 products declined, all inside growing categories, losing $6.3K combined",
+   "sub": "Change in net revenue by product, in US$ thousands, Jul 1996–Apr 1997 vs Jul 1997–Apr 1998\nShown: the eight largest gains and every decline\nBlue: products that grew\nOrange: products that declined",
+   "src": "Diverging bar chart. Data: Order Details, Product. n = 77 products",
+   "about": "The products with the largest gains, and every product that declined.",
+   "takeaway": "Only 6 of 77 products declined, losing $6.3K combined, and all 6 sit in categories that grew overall. The largest decline was Tofu (−$2.4K); the largest gain, Thüringer Rostbratwurst, added $35.0K. Product decline is a small risk next to customer contraction ($61.2K)."
+  },
+  "markets": {
+   "title": "3 markets declined; lower spend per customer explains 71% of the drop",
+   "sub": "Change in net revenue of each declining market, in US$ thousands, Jul 1996–Apr 1997 vs Jul 1997–Apr 1998\nBlue: effect of the change in the number of active customers\nOrange: effect of the change in spend per customer\nGrey text: the customer behind most of the decline",
+   "src": "Stacked bar chart. Data: Orders, Order Details, Customers. n = 3 declining markets",
+   "about": "Each declining market's change, split into the effect of fewer customers and the effect of lower spend per customer.",
+   "takeaway": "Mexico, Denmark and Finland lost $8.0K combined, 2.2% of the total increase. Lower spend per customer explains 71% of it, and only Mexico lost active customers. In each market a single account drives the drop."
+  },
+  "cohort": {
+   "title": "In a typical later quarter, 65% of a customer cohort orders again",
+   "sub": "Share of each customer cohort that ordered again in each later quarter\nCohort: customers grouped by the quarter of their first order in the data\nDarker blue: higher share\nAsterisk (*): quarter with orders to 6 May 1998 only\nCohorts with fewer than 8 customers are left out",
+   "src": "Cohort heatmap. Data: Orders. Cohorts of 8 or more customers",
+   "about": "Retention by cohort: the share of each group of customers ordering again in each later quarter.",
+   "takeaway": "In a typical later quarter 65% of a cohort orders again, with no decline in later quarters: 86% of the 1996 Q3 cohort ordered 6 quarters after joining. This steady retention is what lets the early cohorts in Figure 1.4 keep growing."
+  },
+  "rhythm": {
+   "title": "9 customers are overdue against their own order rhythm, with $53.8K of trailing revenue at stake",
+   "sub": "Each dot is one customer with 3 or more orders\nAcross: usual days between orders (median)\nUp: days since the last order, at 6 May 1998\nDot size: revenue in the last 12 months\nBlue dot: ordering on rhythm\nOrange dot: overdue, more than 2× the usual gap\nDashed orange line: 2× the usual gap\nDotted grey line: 1× the usual gap",
+   "src": "Scatter and table. Data: Orders, Order Details. n = 86 customers",
+   "about": "Each customer's time since the last order against their own usual gap. Dots above the dashed line are overdue.",
+   "takeaway": "9 customers are overdue, holding $53.8K (6.3%) of the last 12 months' revenue. Berglunds snabbköp and Mère Paillarde account for $29.1K of it. Mère Paillarde is the most overdue: its last order was 188 days ago, against a usual gap of 17.5 days."
+  },
+  "finding": "Northwind keeps its customers: 78 of 80 bought again, and the 2 that left were worth $248. The exposure sits inside retained accounts. 25 of them (32%) spent less, giving back $61.2K that expansion elsewhere conceals. 9 customers have gone more than twice their usual interval without ordering, including Berglunds snabbköp and Mère Paillarde; they account for $53.8K, or 6.3% of the last 12 months' revenue. Product and market declines are small: 6 products lost $6.3K, and Mexico, Denmark and Finland lost $8.0K combined, led in each case by one account (Tortuga Restaurante, Simons bistro and Wartian Herkku).",
+  "implication": "Retention effort belongs with contracting and overdue accounts. The overdue list is a ready win-back agenda, and the largest contracting accounts warrant a direct conversation about what changed. Track net revenue retention and order rhythm monthly so that weakening relationships surface while they are still recoverable. The declining products and markets are small enough for routine review, starting with the single account behind each market's drop.",
+  "method": [
+   [
+    "Customer groups",
+    "New: ordered in the later period but not the earlier one. Expansion: ordered in both periods and spent more. Contraction: ordered in both periods and spent less. Lost: ordered in the earlier period but not the later one."
+   ],
+   [
+    "Customer retention",
+    "The share of the earlier period's customers who ordered again in the later period."
+   ],
+   [
+    "Market decline split",
+    "Customer effect = change in active customers × earlier spend per customer. Spend effect = later active customers × change in spend per customer. The two add up to the market's change."
+   ],
+   [
+    "Usual gap",
+    "The median number of days between a customer's consecutive orders, for customers with 3 or more orders."
+   ],
+   [
+    "Overdue customer",
+    "Days since the last order, counted at 6 May 1998 (the last order date in the data), exceed 2× the customer's usual gap. An order placed after the data ends would not appear."
+   ],
+   [
+    "Revenue at risk",
+    "Overdue customers' net revenue in the 12 months before 6 May 1998."
+   ],
+   [
+    "Cohort retention",
+    "The share of a cohort (defined in 01) who ordered in each later quarter. Cohorts under 8 customers are left out."
+   ],
+   [
+    "Square-root scale",
+    "Spreads out values near zero while keeping the 1× and 2× reference lines straight."
+   ]
+  ]
+ }
+}

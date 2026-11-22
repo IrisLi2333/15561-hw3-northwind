@@ -1,0 +1,1444 @@
+{
+ "windows": {
+  "prior": "Jul 1996–Apr 1997",
+  "current": "Jul 1997–Apr 1998"
+ },
+ "kpis": {
+  "revenue": {
+   "prior": 399405.8475,
+   "current": 757909.469,
+   "growth": 0.8976
+  },
+  "orders": {
+   "prior": 275,
+   "current": 479,
+   "growth": 0.7418
+  },
+  "customers": {
+   "prior": 80,
+   "current": 87,
+   "growth": 0.0875
+  },
+  "aov": {
+   "prior": 1452.3849,
+   "current": 1582.2745,
+   "growth": 0.0894
+  },
+  "orders_per_customer": {
+   "prior": 3.4375,
+   "current": 5.5057,
+   "growth": 0.6017
+  },
+  "lines_per_order": {
+   "prior": 2.6436,
+   "current": 2.499,
+   "growth": -0.0547
+  },
+  "line_value": {
+   "prior": 549.3891,
+   "current": 633.1742,
+   "growth": 0.1525
+  }
+ },
+ "total_change": 358503.6215,
+ "driver_split": {
+  "customers": 0.1309,
+  "orders_per_customer": 0.7353,
+  "aov": 0.1337,
+  "lines_per_order": -0.0879,
+  "line_value": 0.2216
+ },
+ "monthly": [
+  {
+   "month": "1996-07",
+   "revenue": 27861.895,
+   "orders": 22,
+   "rolling_3m": null,
+   "largest_order": 3597.9
+  },
+  {
+   "month": "1996-08",
+   "revenue": 25485.275,
+   "orders": 25,
+   "rolling_3m": null,
+   "largest_order": 3016.0
+  },
+  {
+   "month": "1996-09",
+   "revenue": 26381.4,
+   "orders": 23,
+   "rolling_3m": 26576.19,
+   "largest_order": 3741.3
+  },
+  {
+   "month": "1996-10",
+   "revenue": 37515.725,
+   "orders": 26,
+   "rolling_3m": 29794.1333,
+   "largest_order": 5275.715
+  },
+  {
+   "month": "1996-11",
+   "revenue": 45600.045,
+   "orders": 25,
+   "rolling_3m": 36499.0567,
+   "largest_order": 8593.28
+  },
+  {
+   "month": "1996-12",
+   "revenue": 45239.63,
+   "orders": 31,
+   "rolling_3m": 42785.1333,
+   "largest_order": 9210.9
+  },
+  {
+   "month": "1997-01",
+   "revenue": 61258.07,
+   "orders": 33,
+   "rolling_3m": 50699.2483,
+   "largest_order": 11188.4
+  },
+  {
+   "month": "1997-02",
+   "revenue": 38483.635,
+   "orders": 29,
+   "rolling_3m": 48327.1117,
+   "largest_order": 4924.135
+  },
+  {
+   "month": "1997-03",
+   "revenue": 38547.22,
+   "orders": 30,
+   "rolling_3m": 46096.3083,
+   "largest_order": 10495.6
+  },
+  {
+   "month": "1997-04",
+   "revenue": 53032.9525,
+   "orders": 31,
+   "rolling_3m": 43354.6025,
+   "largest_order": 9921.3
+  },
+  {
+   "month": "1997-05",
+   "revenue": 53781.29,
+   "orders": 32,
+   "rolling_3m": 48453.8208,
+   "largest_order": 10191.7
+  },
+  {
+   "month": "1997-06",
+   "revenue": 36362.8025,
+   "orders": 30,
+   "rolling_3m": 47725.6817,
+   "largest_order": 2944.4
+  },
+  {
+   "month": "1997-07",
+   "revenue": 51020.8575,
+   "orders": 33,
+   "rolling_3m": 47054.9833,
+   "largest_order": 6475.4
+  },
+  {
+   "month": "1997-08",
+   "revenue": 47287.67,
+   "orders": 33,
+   "rolling_3m": 44890.4433,
+   "largest_order": 5510.5925
+  },
+  {
+   "month": "1997-09",
+   "revenue": 55629.2425,
+   "orders": 37,
+   "rolling_3m": 51312.59,
+   "largest_order": 5256.5
+  },
+  {
+   "month": "1997-10",
+   "revenue": 66749.226,
+   "orders": 38,
+   "rolling_3m": 56555.3795,
+   "largest_order": 10164.8
+  },
+  {
+   "month": "1997-11",
+   "revenue": 43533.809,
+   "orders": 34,
+   "rolling_3m": 55304.0925,
+   "largest_order": 4529.8
+  },
+  {
+   "month": "1997-12",
+   "revenue": 71398.4285,
+   "orders": 48,
+   "rolling_3m": 60560.4878,
+   "largest_order": 6635.275
+  },
+  {
+   "month": "1998-01",
+   "revenue": 94222.1105,
+   "orders": 55,
+   "rolling_3m": 69718.116,
+   "largest_order": 10952.845
+  },
+  {
+   "month": "1998-02",
+   "revenue": 99415.2875,
+   "orders": 54,
+   "rolling_3m": 88345.2755,
+   "largest_order": 16387.5
+  },
+  {
+   "month": "1998-03",
+   "revenue": 104854.155,
+   "orders": 73,
+   "rolling_3m": 99497.1843,
+   "largest_order": 15810.0
+  },
+  {
+   "month": "1998-04",
+   "revenue": 123798.6825,
+   "orders": 74,
+   "rolling_3m": 109356.0417,
+   "largest_order": 12615.05
+  }
+ ],
+ "markets": [
+  {
+   "market": "USA",
+   "prior": 71128.075,
+   "current": 160296.415,
+   "change": 89168.34,
+   "growth": 1.2536,
+   "share_of_increase": 0.2487
+  },
+  {
+   "market": "Germany",
+   "prior": 60472.735,
+   "current": 139213.5435,
+   "change": 78740.8085,
+   "growth": 1.3021,
+   "share_of_increase": 0.2196
+  },
+  {
+   "market": "Brazil",
+   "prior": 33109.34,
+   "current": 70431.2365,
+   "change": 37321.8965,
+   "growth": 1.1272,
+   "share_of_increase": 0.1041
+  },
+  {
+   "market": "Sweden",
+   "prior": 8637.045,
+   "current": 36097.66,
+   "change": 27460.615,
+   "growth": 3.1794,
+   "share_of_increase": 0.0766
+  },
+  {
+   "market": "Austria",
+   "prior": 45574.71,
+   "current": 72480.541,
+   "change": 26905.831,
+   "growth": 0.5904,
+   "share_of_increase": 0.0751
+  },
+  {
+   "market": "Ireland",
+   "prior": 14994.305,
+   "current": 32466.6,
+   "change": 17472.295,
+   "growth": 1.1653,
+   "share_of_increase": 0.0487
+  },
+  {
+   "market": "UK",
+   "prior": 16865.38,
+   "current": 33957.27,
+   "change": 17091.89,
+   "growth": 1.0134,
+   "share_of_increase": 0.0477
+  },
+  {
+   "market": "Venezuela",
+   "prior": 19863.48,
+   "current": 33888.229,
+   "change": 14024.749,
+   "growth": 0.7061,
+   "share_of_increase": 0.0391
+  },
+  {
+   "market": "Switzerland",
+   "prior": 8576.52,
+   "current": 20794.239,
+   "change": 12217.719,
+   "growth": 1.4246,
+   "share_of_increase": 0.0341
+  },
+  {
+   "market": "Spain",
+   "prior": 3314.4,
+   "current": 13830.5,
+   "change": 10516.1,
+   "growth": 3.1729,
+   "share_of_increase": 0.0293
+  },
+  {
+   "market": "Italy",
+   "prior": 3565.63,
+   "current": 11715.825,
+   "change": 8150.195,
+   "growth": 2.2858,
+   "share_of_increase": 0.0227
+  },
+  {
+   "market": "Belgium",
+   "prior": 12416.18,
+   "current": 20462.675,
+   "change": 8046.495,
+   "growth": 0.6481,
+   "share_of_increase": 0.0224
+  },
+  {
+   "market": "Argentina",
+   "prior": 988.1,
+   "current": 7021.0,
+   "change": 6032.9,
+   "growth": 6.1056,
+   "share_of_increase": 0.0168
+  },
+  {
+   "market": "France",
+   "prior": 34016.26,
+   "current": 39603.7525,
+   "change": 5587.4925,
+   "growth": 0.1643,
+   "share_of_increase": 0.0156
+  },
+  {
+   "market": "Norway",
+   "prior": 1258.4,
+   "current": 4476.75,
+   "change": 3218.35,
+   "growth": 2.5575,
+   "share_of_increase": 0.009
+  },
+  {
+   "market": "Poland",
+   "prior": 459.0,
+   "current": 3072.95,
+   "change": 2613.95,
+   "growth": 5.6949,
+   "share_of_increase": 0.0073
+  },
+  {
+   "market": "Canada",
+   "prior": 22583.39,
+   "current": 24507.75,
+   "change": 1924.36,
+   "growth": 0.0852,
+   "share_of_increase": 0.0054
+  },
+  {
+   "market": "Portugal",
+   "prior": 5584.125,
+   "current": 5621.9375,
+   "change": 37.8125,
+   "growth": 0.0068,
+   "share_of_increase": 0.0001
+  },
+  {
+   "market": "Finland",
+   "prior": 7687.56,
+   "current": 6627.2925,
+   "change": -1060.2675,
+   "growth": -0.1379,
+   "share_of_increase": -0.003
+  },
+  {
+   "market": "Denmark",
+   "prior": 16658.8,
+   "current": 14934.9375,
+   "change": -1723.8625,
+   "growth": -0.1035,
+   "share_of_increase": -0.0048
+  },
+  {
+   "market": "Mexico",
+   "prior": 11652.4125,
+   "current": 6408.365,
+   "change": -5244.0475,
+   "growth": -0.45,
+   "share_of_increase": -0.0146
+  }
+ ],
+ "categories": [
+  {
+   "category": "Dairy Products",
+   "prior": 71136.19,
+   "current": 143851.6,
+   "change": 72715.41,
+   "growth": 1.0222,
+   "share_of_increase": 0.2028
+  },
+  {
+   "category": "Beverages",
+   "prior": 90380.23,
+   "current": 154523.575,
+   "change": 64143.345,
+   "growth": 0.7097,
+   "share_of_increase": 0.1789
+  },
+  {
+   "category": "Seafood",
+   "prior": 30745.665,
+   "current": 90021.195,
+   "change": 59275.53,
+   "growth": 1.9279,
+   "share_of_increase": 0.1653
+  },
+  {
+   "category": "Meat/Poultry",
+   "prior": 52829.45,
+   "current": 98187.0495,
+   "change": 45357.5995,
+   "growth": 0.8586,
+   "share_of_increase": 0.1265
+  },
+  {
+   "category": "Confections",
+   "prior": 60541.0775,
+   "current": 94610.0145,
+   "change": 34068.937,
+   "growth": 0.5627,
+   "share_of_increase": 0.095
+  },
+  {
+   "category": "Produce",
+   "prior": 28840.96,
+   "current": 61082.9375,
+   "change": 32241.9775,
+   "growth": 1.1179,
+   "share_of_increase": 0.0899
+  },
+  {
+   "category": "Grains/Cereals",
+   "prior": 28461.42,
+   "current": 54251.0625,
+   "change": 25789.6425,
+   "growth": 0.9061,
+   "share_of_increase": 0.0719
+  },
+  {
+   "category": "Condiments",
+   "prior": 36470.855,
+   "current": 61382.035,
+   "change": 24911.18,
+   "growth": 0.683,
+   "share_of_increase": 0.0695
+  }
+ ],
+ "top3_market_share_of_increase": 0.5725,
+ "breadth": {
+  "markets": {
+   "items": 21,
+   "grew": 18,
+   "declined": 3,
+   "share_grew": 0.8571
+  },
+  "categories": {
+   "items": 8,
+   "grew": 8,
+   "declined": 0,
+   "share_grew": 1.0
+  },
+  "customers": {
+   "items": 89,
+   "grew": 62,
+   "declined": 27,
+   "share_grew": 0.6966
+  }
+ },
+ "concentration": {
+  "prior": {
+   "customers": 80,
+   "top10_share": 0.4744,
+   "top1_share": 0.0863,
+   "customers_for_80pct": 28,
+   "share_of_customers_for_80pct": 0.35,
+   "curve": [
+    {
+     "customer_share": 0.0125,
+     "revenue_share": 0.0863
+    },
+    {
+     "customer_share": 0.025,
+     "revenue_share": 0.1552
+    },
+    {
+     "customer_share": 0.0375,
+     "revenue_share": 0.2174
+    },
+    {
+     "customer_share": 0.05,
+     "revenue_share": 0.2724
+    },
+    {
+     "customer_share": 0.0625,
+     "revenue_share": 0.3124
+    },
+    {
+     "customer_share": 0.075,
+     "revenue_share": 0.3499
+    },
+    {
+     "customer_share": 0.0875,
+     "revenue_share": 0.3845
+    },
+    {
+     "customer_share": 0.1,
+     "revenue_share": 0.4156
+    },
+    {
+     "customer_share": 0.1125,
+     "revenue_share": 0.4455
+    },
+    {
+     "customer_share": 0.125,
+     "revenue_share": 0.4744
+    },
+    {
+     "customer_share": 0.1375,
+     "revenue_share": 0.5026
+    },
+    {
+     "customer_share": 0.15,
+     "revenue_share": 0.5304
+    },
+    {
+     "customer_share": 0.1625,
+     "revenue_share": 0.5516
+    },
+    {
+     "customer_share": 0.175,
+     "revenue_share": 0.5727
+    },
+    {
+     "customer_share": 0.1875,
+     "revenue_share": 0.5936
+    },
+    {
+     "customer_share": 0.2,
+     "revenue_share": 0.6145
+    },
+    {
+     "customer_share": 0.2125,
+     "revenue_share": 0.6343
+    },
+    {
+     "customer_share": 0.225,
+     "revenue_share": 0.6533
+    },
+    {
+     "customer_share": 0.2375,
+     "revenue_share": 0.6714
+    },
+    {
+     "customer_share": 0.25,
+     "revenue_share": 0.6884
+    },
+    {
+     "customer_share": 0.2625,
+     "revenue_share": 0.705
+    },
+    {
+     "customer_share": 0.275,
+     "revenue_share": 0.7209
+    },
+    {
+     "customer_share": 0.2875,
+     "revenue_share": 0.7358
+    },
+    {
+     "customer_share": 0.3,
+     "revenue_share": 0.7502
+    },
+    {
+     "customer_share": 0.3125,
+     "revenue_share": 0.7641
+    },
+    {
+     "customer_share": 0.325,
+     "revenue_share": 0.7769
+    },
+    {
+     "customer_share": 0.3375,
+     "revenue_share": 0.7896
+    },
+    {
+     "customer_share": 0.35,
+     "revenue_share": 0.802
+    },
+    {
+     "customer_share": 0.3625,
+     "revenue_share": 0.8135
+    },
+    {
+     "customer_share": 0.375,
+     "revenue_share": 0.8235
+    },
+    {
+     "customer_share": 0.3875,
+     "revenue_share": 0.8335
+    },
+    {
+     "customer_share": 0.4,
+     "revenue_share": 0.8424
+    },
+    {
+     "customer_share": 0.4125,
+     "revenue_share": 0.8508
+    },
+    {
+     "customer_share": 0.425,
+     "revenue_share": 0.8592
+    },
+    {
+     "customer_share": 0.4375,
+     "revenue_share": 0.8675
+    },
+    {
+     "customer_share": 0.45,
+     "revenue_share": 0.8754
+    },
+    {
+     "customer_share": 0.4625,
+     "revenue_share": 0.8832
+    },
+    {
+     "customer_share": 0.475,
+     "revenue_share": 0.8907
+    },
+    {
+     "customer_share": 0.4875,
+     "revenue_share": 0.8982
+    },
+    {
+     "customer_share": 0.5,
+     "revenue_share": 0.9051
+    },
+    {
+     "customer_share": 0.5125,
+     "revenue_share": 0.9119
+    },
+    {
+     "customer_share": 0.525,
+     "revenue_share": 0.918
+    },
+    {
+     "customer_share": 0.5375,
+     "revenue_share": 0.9239
+    },
+    {
+     "customer_share": 0.55,
+     "revenue_share": 0.9295
+    },
+    {
+     "customer_share": 0.5625,
+     "revenue_share": 0.935
+    },
+    {
+     "customer_share": 0.575,
+     "revenue_share": 0.9399
+    },
+    {
+     "customer_share": 0.5875,
+     "revenue_share": 0.9444
+    },
+    {
+     "customer_share": 0.6,
+     "revenue_share": 0.9487
+    },
+    {
+     "customer_share": 0.6125,
+     "revenue_share": 0.9523
+    },
+    {
+     "customer_share": 0.625,
+     "revenue_share": 0.9555
+    },
+    {
+     "customer_share": 0.6375,
+     "revenue_share": 0.9585
+    },
+    {
+     "customer_share": 0.65,
+     "revenue_share": 0.9614
+    },
+    {
+     "customer_share": 0.6625,
+     "revenue_share": 0.9642
+    },
+    {
+     "customer_share": 0.675,
+     "revenue_share": 0.967
+    },
+    {
+     "customer_share": 0.6875,
+     "revenue_share": 0.9698
+    },
+    {
+     "customer_share": 0.7,
+     "revenue_share": 0.9723
+    },
+    {
+     "customer_share": 0.7125,
+     "revenue_share": 0.9748
+    },
+    {
+     "customer_share": 0.725,
+     "revenue_share": 0.977
+    },
+    {
+     "customer_share": 0.7375,
+     "revenue_share": 0.979
+    },
+    {
+     "customer_share": 0.75,
+     "revenue_share": 0.9809
+    },
+    {
+     "customer_share": 0.7625,
+     "revenue_share": 0.9828
+    },
+    {
+     "customer_share": 0.775,
+     "revenue_share": 0.9846
+    },
+    {
+     "customer_share": 0.7875,
+     "revenue_share": 0.9863
+    },
+    {
+     "customer_share": 0.8,
+     "revenue_share": 0.988
+    },
+    {
+     "customer_share": 0.8125,
+     "revenue_share": 0.9893
+    },
+    {
+     "customer_share": 0.825,
+     "revenue_share": 0.9905
+    },
+    {
+     "customer_share": 0.8375,
+     "revenue_share": 0.9916
+    },
+    {
+     "customer_share": 0.85,
+     "revenue_share": 0.9928
+    },
+    {
+     "customer_share": 0.8625,
+     "revenue_share": 0.9939
+    },
+    {
+     "customer_share": 0.875,
+     "revenue_share": 0.9947
+    },
+    {
+     "customer_share": 0.8875,
+     "revenue_share": 0.9956
+    },
+    {
+     "customer_share": 0.9,
+     "revenue_share": 0.9964
+    },
+    {
+     "customer_share": 0.9125,
+     "revenue_share": 0.9971
+    },
+    {
+     "customer_share": 0.925,
+     "revenue_share": 0.9978
+    },
+    {
+     "customer_share": 0.9375,
+     "revenue_share": 0.9985
+    },
+    {
+     "customer_share": 0.95,
+     "revenue_share": 0.999
+    },
+    {
+     "customer_share": 0.9625,
+     "revenue_share": 0.9994
+    },
+    {
+     "customer_share": 0.975,
+     "revenue_share": 0.9997
+    },
+    {
+     "customer_share": 0.9875,
+     "revenue_share": 0.9999
+    },
+    {
+     "customer_share": 1.0,
+     "revenue_share": 1.0
+    }
+   ]
+  },
+  "current": {
+   "customers": 87,
+   "top10_share": 0.4961,
+   "top1_share": 0.0991,
+   "customers_for_80pct": 32,
+   "share_of_customers_for_80pct": 0.3678,
+   "curve": [
+    {
+     "customer_share": 0.0115,
+     "revenue_share": 0.0991
+    },
+    {
+     "customer_share": 0.023,
+     "revenue_share": 0.1881
+    },
+    {
+     "customer_share": 0.0345,
+     "revenue_share": 0.2734
+    },
+    {
+     "customer_share": 0.046,
+     "revenue_share": 0.3163
+    },
+    {
+     "customer_share": 0.0575,
+     "revenue_share": 0.3531
+    },
+    {
+     "customer_share": 0.069,
+     "revenue_share": 0.3867
+    },
+    {
+     "customer_share": 0.0805,
+     "revenue_share": 0.4169
+    },
+    {
+     "customer_share": 0.092,
+     "revenue_share": 0.4452
+    },
+    {
+     "customer_share": 0.1034,
+     "revenue_share": 0.4722
+    },
+    {
+     "customer_share": 0.1149,
+     "revenue_share": 0.4961
+    },
+    {
+     "customer_share": 0.1264,
+     "revenue_share": 0.5155
+    },
+    {
+     "customer_share": 0.1379,
+     "revenue_share": 0.5346
+    },
+    {
+     "customer_share": 0.1494,
+     "revenue_share": 0.5537
+    },
+    {
+     "customer_share": 0.1609,
+     "revenue_share": 0.5726
+    },
+    {
+     "customer_share": 0.1724,
+     "revenue_share": 0.5903
+    },
+    {
+     "customer_share": 0.1839,
+     "revenue_share": 0.6067
+    },
+    {
+     "customer_share": 0.1954,
+     "revenue_share": 0.6224
+    },
+    {
+     "customer_share": 0.2069,
+     "revenue_share": 0.638
+    },
+    {
+     "customer_share": 0.2184,
+     "revenue_share": 0.6534
+    },
+    {
+     "customer_share": 0.2299,
+     "revenue_share": 0.6675
+    },
+    {
+     "customer_share": 0.2414,
+     "revenue_share": 0.6806
+    },
+    {
+     "customer_share": 0.2529,
+     "revenue_share": 0.6936
+    },
+    {
+     "customer_share": 0.2644,
+     "revenue_share": 0.7063
+    },
+    {
+     "customer_share": 0.2759,
+     "revenue_share": 0.7188
+    },
+    {
+     "customer_share": 0.2874,
+     "revenue_share": 0.731
+    },
+    {
+     "customer_share": 0.2989,
+     "revenue_share": 0.7426
+    },
+    {
+     "customer_share": 0.3103,
+     "revenue_share": 0.7537
+    },
+    {
+     "customer_share": 0.3218,
+     "revenue_share": 0.7641
+    },
+    {
+     "customer_share": 0.3333,
+     "revenue_share": 0.7745
+    },
+    {
+     "customer_share": 0.3448,
+     "revenue_share": 0.7844
+    },
+    {
+     "customer_share": 0.3563,
+     "revenue_share": 0.7942
+    },
+    {
+     "customer_share": 0.3678,
+     "revenue_share": 0.8039
+    },
+    {
+     "customer_share": 0.3793,
+     "revenue_share": 0.8129
+    },
+    {
+     "customer_share": 0.3908,
+     "revenue_share": 0.8205
+    },
+    {
+     "customer_share": 0.4023,
+     "revenue_share": 0.8278
+    },
+    {
+     "customer_share": 0.4138,
+     "revenue_share": 0.8349
+    },
+    {
+     "customer_share": 0.4253,
+     "revenue_share": 0.842
+    },
+    {
+     "customer_share": 0.4368,
+     "revenue_share": 0.8486
+    },
+    {
+     "customer_share": 0.4483,
+     "revenue_share": 0.8545
+    },
+    {
+     "customer_share": 0.4598,
+     "revenue_share": 0.8604
+    },
+    {
+     "customer_share": 0.4713,
+     "revenue_share": 0.866
+    },
+    {
+     "customer_share": 0.4828,
+     "revenue_share": 0.8716
+    },
+    {
+     "customer_share": 0.4943,
+     "revenue_share": 0.8772
+    },
+    {
+     "customer_share": 0.5057,
+     "revenue_share": 0.8825
+    },
+    {
+     "customer_share": 0.5172,
+     "revenue_share": 0.8876
+    },
+    {
+     "customer_share": 0.5287,
+     "revenue_share": 0.8926
+    },
+    {
+     "customer_share": 0.5402,
+     "revenue_share": 0.8974
+    },
+    {
+     "customer_share": 0.5517,
+     "revenue_share": 0.902
+    },
+    {
+     "customer_share": 0.5632,
+     "revenue_share": 0.9063
+    },
+    {
+     "customer_share": 0.5747,
+     "revenue_share": 0.9105
+    },
+    {
+     "customer_share": 0.5862,
+     "revenue_share": 0.9146
+    },
+    {
+     "customer_share": 0.5977,
+     "revenue_share": 0.9188
+    },
+    {
+     "customer_share": 0.6092,
+     "revenue_share": 0.9229
+    },
+    {
+     "customer_share": 0.6207,
+     "revenue_share": 0.927
+    },
+    {
+     "customer_share": 0.6322,
+     "revenue_share": 0.9311
+    },
+    {
+     "customer_share": 0.6437,
+     "revenue_share": 0.9351
+    },
+    {
+     "customer_share": 0.6552,
+     "revenue_share": 0.9391
+    },
+    {
+     "customer_share": 0.6667,
+     "revenue_share": 0.943
+    },
+    {
+     "customer_share": 0.6782,
+     "revenue_share": 0.9469
+    },
+    {
+     "customer_share": 0.6897,
+     "revenue_share": 0.9505
+    },
+    {
+     "customer_share": 0.7011,
+     "revenue_share": 0.954
+    },
+    {
+     "customer_share": 0.7126,
+     "revenue_share": 0.9572
+    },
+    {
+     "customer_share": 0.7241,
+     "revenue_share": 0.9604
+    },
+    {
+     "customer_share": 0.7356,
+     "revenue_share": 0.9632
+    },
+    {
+     "customer_share": 0.7471,
+     "revenue_share": 0.966
+    },
+    {
+     "customer_share": 0.7586,
+     "revenue_share": 0.9687
+    },
+    {
+     "customer_share": 0.7701,
+     "revenue_share": 0.9713
+    },
+    {
+     "customer_share": 0.7816,
+     "revenue_share": 0.9739
+    },
+    {
+     "customer_share": 0.7931,
+     "revenue_share": 0.9765
+    },
+    {
+     "customer_share": 0.8046,
+     "revenue_share": 0.9789
+    },
+    {
+     "customer_share": 0.8161,
+     "revenue_share": 0.9813
+    },
+    {
+     "customer_share": 0.8276,
+     "revenue_share": 0.9836
+    },
+    {
+     "customer_share": 0.8391,
+     "revenue_share": 0.9857
+    },
+    {
+     "customer_share": 0.8506,
+     "revenue_share": 0.9878
+    },
+    {
+     "customer_share": 0.8621,
+     "revenue_share": 0.9897
+    },
+    {
+     "customer_share": 0.8736,
+     "revenue_share": 0.9915
+    },
+    {
+     "customer_share": 0.8851,
+     "revenue_share": 0.9932
+    },
+    {
+     "customer_share": 0.8966,
+     "revenue_share": 0.9948
+    },
+    {
+     "customer_share": 0.908,
+     "revenue_share": 0.996
+    },
+    {
+     "customer_share": 0.9195,
+     "revenue_share": 0.997
+    },
+    {
+     "customer_share": 0.931,
+     "revenue_share": 0.9977
+    },
+    {
+     "customer_share": 0.9425,
+     "revenue_share": 0.9982
+    },
+    {
+     "customer_share": 0.954,
+     "revenue_share": 0.9987
+    },
+    {
+     "customer_share": 0.9655,
+     "revenue_share": 0.9991
+    },
+    {
+     "customer_share": 0.977,
+     "revenue_share": 0.9994
+    },
+    {
+     "customer_share": 0.9885,
+     "revenue_share": 0.9997
+    },
+    {
+     "customer_share": 1.0,
+     "revenue_share": 1.0
+    }
+   ]
+  }
+ },
+ "cohort_revenue": {
+  "quarters": [
+   "1996 Q3",
+   "1996 Q4",
+   "1997 Q1",
+   "1997 Q2",
+   "1997 Q3",
+   "1997 Q4",
+   "1998 Q1"
+  ],
+  "cohorts": [
+   {
+    "cohort": "1996 Q3",
+    "customers": 42,
+    "revenue": [
+     79728.57,
+     65355.135,
+     73677.545,
+     97385.5925,
+     75304.49,
+     99878.511,
+     186237.949
+    ]
+   },
+   {
+    "cohort": "1996 Q4",
+    "customers": 24,
+    "revenue": [
+     0.0,
+     63000.265,
+     55587.74,
+     37788.5325,
+     53719.34,
+     59709.275,
+     73794.389
+    ]
+   },
+   {
+    "cohort": "1997 Q1",
+    "customers": 10,
+    "revenue": [
+     0.0,
+     0.0,
+     9023.64,
+     3542.37,
+     11657.485,
+     16043.175,
+     13314.19
+    ]
+   },
+   {
+    "cohort": "1997 Q2",
+    "customers": 8,
+    "revenue": [
+     0.0,
+     0.0,
+     0.0,
+     4460.55,
+     10128.615,
+     4562.1525,
+     17422.915
+    ]
+   },
+   {
+    "cohort": "1997 Q3 or later",
+    "customers": 5,
+    "revenue": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     3127.84,
+     1488.35,
+     7722.11
+    ]
+   }
+  ],
+  "last_quarter_share": {
+   "1996 Q3": 0.6239,
+   "1996 Q4": 0.2472,
+   "1997 Q1": 0.0446,
+   "1997 Q2": 0.0584,
+   "1997 Q3 or later": 0.0259
+  }
+ },
+ "waterfalls": {
+  "drivers": [
+   {
+    "label": "Jul 1996–Apr 1997",
+    "value": 399405.8475,
+    "kind": "total"
+   },
+   {
+    "label": "More active customers",
+    "value": 46944.2374,
+    "kind": "up"
+   },
+   {
+    "label": "More orders per customer",
+    "value": 263621.8251,
+    "kind": "up"
+   },
+   {
+    "label": "Higher average order value",
+    "value": 47937.559,
+    "kind": "up"
+   },
+   {
+    "label": "Jul 1997–Apr 1998",
+    "value": 757909.469,
+    "kind": "total"
+   }
+  ],
+  "markets": [
+   {
+    "label": "Jul 1996–Apr 1997",
+    "value": 399405.8475,
+    "kind": "total"
+   },
+   {
+    "label": "USA",
+    "value": 89168.34,
+    "kind": "up"
+   },
+   {
+    "label": "Germany",
+    "value": 78740.8085,
+    "kind": "up"
+   },
+   {
+    "label": "Brazil",
+    "value": 37321.8965,
+    "kind": "up"
+   },
+   {
+    "label": "Sweden",
+    "value": 27460.615,
+    "kind": "up"
+   },
+   {
+    "label": "Austria",
+    "value": 26905.831,
+    "kind": "up"
+   },
+   {
+    "label": "Ireland",
+    "value": 17472.295,
+    "kind": "up"
+   },
+   {
+    "label": "12 other growing markets",
+    "value": 89462.013,
+    "kind": "up"
+   },
+   {
+    "label": "3 declining markets",
+    "value": -8028.1775,
+    "kind": "down"
+   },
+   {
+    "label": "Jul 1997–Apr 1998",
+    "value": 757909.469,
+    "kind": "total"
+   }
+  ],
+  "categories": [
+   {
+    "label": "Jul 1996–Apr 1997",
+    "value": 399405.8475,
+    "kind": "total"
+   },
+   {
+    "label": "Dairy Products",
+    "value": 72715.41,
+    "kind": "up"
+   },
+   {
+    "label": "Beverages",
+    "value": 64143.345,
+    "kind": "up"
+   },
+   {
+    "label": "Seafood",
+    "value": 59275.53,
+    "kind": "up"
+   },
+   {
+    "label": "Meat/Poultry",
+    "value": 45357.5995,
+    "kind": "up"
+   },
+   {
+    "label": "Confections",
+    "value": 34068.937,
+    "kind": "up"
+   },
+   {
+    "label": "Produce",
+    "value": 32241.9775,
+    "kind": "up"
+   },
+   {
+    "label": "Grains/Cereals",
+    "value": 25789.6425,
+    "kind": "up"
+   },
+   {
+    "label": "Condiments",
+    "value": 24911.18,
+    "kind": "up"
+   },
+   {
+    "label": "Jul 1997–Apr 1998",
+    "value": 757909.469,
+    "kind": "total"
+   }
+  ]
+ },
+ "text": {
+  "monthly": {
+   "title": "Monthly revenue climbed from $27.9K in July 1996 to $123.8K in April 1998",
+   "sub": "Net revenue per month, in US$ thousands, July 1996 to April 1998\nBlue columns: revenue in the month\nOrange line: 3-month rolling average",
+   "src": "Column and line chart. Data: Orders, Order Details. n = 22 months",
+   "about": "Net revenue for each month, with a 3-month rolling average that smooths out single large orders.",
+   "takeaway": "The 3-month average rose from $26.6K in September 1996 to $109.4K in April 1998. Each month from January to April 1998 set a new high. January to April 1998 averaged $105.6K a month, 2.1× the 1997 monthly average. No single order exceeded 27% of its month's revenue, so the climb comes from many orders."
+  },
+  "bridge": {
+   "drivers": {
+    "title": "Customers ordering more often explain 74% of the revenue increase",
+    "sub": "Change in net revenue by driver, in US$ thousands, Jul 1996–Apr 1997 vs Jul 1997–Apr 1998\nRevenue = active customers × orders per customer × average order value\nDark blue: total revenue in each period\nBlue: increase from each driver",
+    "takeaway": "Purchase frequency did most of the work: orders per customer rose from 3.4 to 5.5, adding $263.6K. Active customers grew from 80 to 87 and average order value from $1,452 to $1,582, together adding $94.9K."
+   },
+   "markets": {
+    "title": "USA, Germany and Brazil brought 57% of the increase; 18 of 21 markets grew",
+    "sub": "Change in net revenue by customer country, in US$ thousands, Jul 1996–Apr 1997 vs Jul 1997–Apr 1998\nDark blue: total revenue in each period\nBlue: markets that grew\nOrange: markets that declined",
+    "takeaway": "USA, Germany and Brazil added $205.2K, 57% of the increase. 18 of 21 markets grew. The 3 declining markets lost $8.0K combined, 2.2% of the increase."
+   },
+   "categories": {
+    "title": "All 8 categories grew; Dairy Products added the most and Seafood grew fastest (+193%)",
+    "sub": "Change in net revenue by product category, in US$ thousands, Jul 1996–Apr 1997 vs Jul 1997–Apr 1998\nDark blue: total revenue in each period\nBlue: categories that grew",
+    "takeaway": "Every category grew. Dairy Products, Beverages and Seafood added $196.1K, 55% of the increase. The smallest gain, Condiments, was still $24.9K (+68%)."
+   },
+   "src": "Waterfall chart. Data: Orders, Order Details, Customers, Product, Categories",
+   "about": "A waterfall chart of the revenue increase. Switch the view to see it by driver, market or category."
+  },
+  "cohorts": {
+   "title": "Customers won in 1996 still brought 87% of revenue in 1998 Q1",
+   "sub": "Net revenue per complete quarter, in US$ thousands, 1996 Q3 to 1998 Q1\nBlue: 1996 Q3 cohort (42 customers)\nOrange: 1996 Q4 cohort (24 customers)\nDark blue: 1997 Q1 cohort (10 customers)\nLight orange: 1997 Q2 cohort (8 customers)\nLight blue: 1997 Q3 or later cohort (5 customers)",
+   "src": "Stacked column chart. Data: Orders, Order Details. n = 89 customers",
+   "about": "Revenue in each complete quarter, split by when each customer placed their first order.",
+   "takeaway": "Customers won in 1996 brought 87% of revenue in 1998 Q1. The 1996 Q3 cohort's quarterly revenue rose from $79.7K to $186.2K, 2.3× in 6 quarters, while the 5 customers who joined from 1997 Q3 onward brought 3%. Growth came from the established base buying more, which matches the driver split in Figure 1.2."
+  },
+  "pareto": {
+   "title": "The top 10 customers bring 49.6% of revenue, up from 47.4%",
+   "sub": "Cumulative share of net revenue, customers ranked from largest to smallest\nBlue line: Jul 1997–Apr 1998\nLight blue line: Jul 1996–Apr 1997\nOrange dot: where the top 10 customers end\nDotted diagonal: every customer the same size",
+   "src": "Pareto curve. Data: Orders, Order Details. n = 87 customers",
+   "about": "A Pareto curve of customer revenue in both periods.",
+   "takeaway": "32 of 87 customers (37%) bring 80% of revenue. The top 10 customers' share rose from 47.4% to 49.6%, and the largest customer's from 8.6% to 9.9%. Revenue is concentrating gradually as the business grows."
+  },
+  "finding": "Net revenue grew 90% to $757.9K. Purchase frequency drove it: orders per customer rose from 3.4 to 5.5, which explains 74% of the increase, while the customer base and average order value each grew about 9%. The growth is broad: all 8 categories, 18 of 21 markets and 62 of 89 customers grew. Concentration edged up, with the top 10 customers at 49.6% of revenue and USA, Germany and Brazil supplying 57% of the increase.",
+  "implication": "The growth rests on established customers buying more often, which gives management a solid base for planning. The main exposure is concentration: about half of revenue rests on ten accounts and three markets carry most of the increase. Assign clear ownership of the top accounts and track orders per customer as the leading indicator of momentum.",
+  "method": [
+   [
+    "Comparison periods",
+    "Jul 1996–Apr 1997 against Jul 1997–Apr 1998. The data spans 22 complete months, two short of the 24 a full-year comparison needs. July to April is the longest pair of periods covering the same months of the year, which holds seasonal effects equal."
+   ],
+   [
+    "Net revenue",
+    "Unit price × quantity × (1 − discount), summed over order lines. Freight is excluded."
+   ],
+   [
+    "Revenue drivers",
+    "Revenue = active customers × orders per customer × average order value. An active customer placed at least one order in the period. Orders per customer = orders ÷ active customers. Average order value = net revenue ÷ orders."
+   ],
+   [
+    "Driver contribution",
+    "A driver's share of the increase = log of its growth ratio ÷ log of the revenue growth ratio. Logs turn the product into a sum, so the three shares add to 100%; each share × the total increase gives the driver's dollar amount."
+   ],
+   [
+    "Waterfall chart",
+    "Starts from the earlier period's revenue, adds each component's change as a step, and ends at the later period's revenue."
+   ],
+   [
+    "Customer cohort",
+    "Customers grouped by the quarter of their first order in the data. The 1996 Q3 cohort includes customers who started before the data begins."
+   ],
+   [
+    "Pareto curve",
+    "Customers ranked from largest to smallest. The curve plots the cumulative share of revenue against the cumulative share of customers; the more it bows upward, the more concentrated revenue is."
+   ]
+  ]
+ }
+}
